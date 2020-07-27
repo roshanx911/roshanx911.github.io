@@ -1,7 +1,7 @@
 ### Hi there 👋
 
 <!--
-**roshanx911/roshanx911** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**roshanx911/roshanx911.github.io** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
 Here are some ideas to get you started:
 
