@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Roshanx911 @ GitHub
+title: roshanx911 @ GitHub
 email: roshanx911@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am Roshan Perera Computer Enthusiast, Programmer & Web Developer from Sri Lanka.
