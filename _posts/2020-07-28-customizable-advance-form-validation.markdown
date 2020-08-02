@@ -4,26 +4,33 @@ title:  "Customizable Advance Form Validation"
 date:   2020-07-28 09:26:19 -0700
 categories: jekyll update
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+Few years’ way back Client-side form validation is a mess, but these days Client-side form validation can be done simply with integration of Front-End Frameworks such as “bootstrap”. Due to its simplicity nature, basic bootstrap form with validation outlook as below:
 
-Jekyll requires blog post files to be named according to the following format:
-
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-  puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
+{% highlight javascript %}
+<form class="form-horizontal" id="formID" action="" method="POST">
+	<div class="control-group">
+		<label for="contact_name" class="control-label">Name:</label>		
+		<div class="controls">
+			<input type="text" required id="contact_name" name="contact_name"/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="contact_email" class="control-label">Email:</label>		
+		<div class="controls">
+			<input type="email" required id="contact_email" name="contact_email"/>
+		</div>
+	</div>
+	<div class="control-group">
+		<label for="contact_message" class="control-label">Message:</label>		
+		<div class="controls">
+			<textarea required id="contact_message" name="contact_message" cols="30" rows="10"></textarea>
+		</div>
+	</div>	
+	<div class="control-group">
+		<div class="controls">
+			<input type="submit" class="btn btn-info" value="Send Message" />
+			<input type="reset" class="btn" value="Reset" />
+		</div>
+	</div>
+</form>
 {% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
