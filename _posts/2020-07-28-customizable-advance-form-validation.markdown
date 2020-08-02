@@ -23,7 +23,7 @@ Few years’ way back Client-side form validation is a mess, but these days Clie
 	<div class="control-group">
 		<label for="contact_message" class="control-label">Message:</label>
 		<div class="controls">
-			<textarea required id="contact_message" name="contact_message"></textarea>
+      <textarea required id="contact_message" name="contact_message"></textarea>
 		</div>
 	</div>	
 	<div class="control-group">
