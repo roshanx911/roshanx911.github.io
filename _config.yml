@@ -28,9 +28,12 @@ twitter_username: roshanx911
 facebook_username: roshanx911
 github_username: roshanx911
 linkedin_username: roshanx911
+stackoverflow: "14033303"
+copyright: "Copyrights by Roshan Perera"
 
 # Build settings
-theme: minima
+# theme: minima
+remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
 
