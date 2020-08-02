@@ -19,7 +19,9 @@
 # in the templates via {{ site.myvariable }}.
 
 title: roshanx911 @ GitHub
-email: roshanx911@gmail.com
+author:
+  name: Roshan Perera
+  email: roshanx911@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   I am Roshan Perera Computer Enthusiast, Programmer & Web Developer from Sri Lanka.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -27,10 +29,10 @@ url: "https://roshanx911.github.io/" # the base hostname & protocol for your sit
 minima:
   skin: classic
   social_links:
-    twitter_username: roshanx911
-    facebook_username: roshanx911
-    github_username: roshanx911
-    linkedin_username: roshanx911
+    twitter: roshanx911
+    facebook: roshanx911
+    github: roshanx911
+    linkedin: roshanx911
     stackoverflow: "14033303"
 copyright: "Copyrights by Roshan Perera"
 
