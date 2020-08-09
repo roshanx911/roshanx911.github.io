@@ -141,7 +141,7 @@ OR
 <input type="password" class="validate[required,equals[password]]" id="password2" name="password2"/>
 {% endhighlight %}
 
-### Conclusion:
+> ### Conclusion:
 > This validation-engine comes with endless number of customizations to form-validation. To commit accurate & specific data into a database is very crucial, furthermore this validation-engine is highly efficient & effective. For more information read the [official documentation][official-documentation] on website.
 
 [jQuery-Library]: https://code.jquery.com/jquery-3.5.1.min.js
