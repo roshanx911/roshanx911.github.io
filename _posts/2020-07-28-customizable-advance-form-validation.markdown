@@ -53,7 +53,7 @@ OR
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 {% endhighlight %}
 
-Note: It’s always a proper tendency to include jQuery or JavaScript in the end of the body-tag just before closing.
+> Note: It’s always a proper tendency to include jQuery or JavaScript in the end of the body-tag just before closing.
 
 * [Download][] & include validation-engine to local development path (This contains validation-engine & customizable theme CSS)
 {% highlight html %}
