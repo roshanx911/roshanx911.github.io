@@ -5,7 +5,7 @@ date: 2020-08-09 10:20:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-Below code examine on how to integrate a popup/modal contact form using Bootstrap and how to insert data into a database using PHP & MySQL. <!--more-->Basic bootstrap integrated html page code cast as below:
+Below code examine on how to integrate a popup/modal contact-form using Bootstrap and how to insert data into a database using PHP & MySQL. <!--more-->Basic bootstrap integrated html page code cast as below:
 
 {% highlight html %}
 <!DOCTYPE html>
@@ -58,7 +58,7 @@ Below code examine on how to integrate a popup/modal contact form using Bootstra
 </html>
 {% endhighlight %}
 
-- Adding popup/modal contact form to the page:
+- Adding popup/modal contact-form to the page:
 {% highlight html %}
 <section>
 	<!-- Modal Contact Form -->
@@ -102,7 +102,7 @@ Below code examine on how to integrate a popup/modal contact form using Bootstra
 </section>
 {% endhighlight %}
 
-- To activate the visibility of popup/modal contact form is can be linked by button below:
+- To activate the visibility of popup/modal contact-form is can be linked by button below:
 {% highlight html %}
 <section>
 	<div class="container">
@@ -129,6 +129,12 @@ Below code examine on how to integrate a popup/modal contact form using Bootstra
 
 - “php” inside of “html” code should cast as below:
 ![alt text](https://i.imgur.com/mwRV211.png)
+
+- Once follow the above mention step by step guide Bootstrap integrate page interface cast as below:
+![alt text](https://i.imgur.com/KYSbGHB.png)
+
+- Once click the button “Be Connected” or menu link “Contact” contact-form will pop-up while freezing the background page. The contact-form interface cast as below:
+![alt text](https://i.imgur.com/hxUiGaS.png)
 
 {% highlight html %}
 {% endhighlight %}
