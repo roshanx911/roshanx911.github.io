@@ -40,18 +40,18 @@ Below code examine on how to integrate a popup/modal contact form using Bootstra
 		</div>
 	</div> <!-- End Navbar -->
 	<!-- Footer -->
-		<hr />
-		<ul class="inline text-center">
-			<li><strong>Follow On:</strong></li>
-			<li><a href="">Twitter</a></li>
-			<li><a href="">LinkedIn</a></li>
-			<li><a href="">Github</a></li>
-		</ul>	
+    <hr />
+	<ul class="inline text-center">
+		<li><strong>Follow On:</strong></li>
+		<li><a href="">Twitter</a></li>
+		<li><a href="">LinkedIn</a></li>
+		<li><a href="">Github</a></li>
+	</ul>	
 	<p class="text-center muted">&copy; 2020 Bootstrap Contact Form with PHP and MySQL</p>
 	<!-- End Footer -->
 	<!-- JavaScript -->
-		<script src="js/jquery.js"></script>
-		<script src="js/bootstrap.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
 	<!-- End JavaScript -->
 </body>
 </html>
