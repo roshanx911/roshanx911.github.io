@@ -4,7 +4,7 @@ title: "Bootstrap Contact Form with PHP and MySQL"
 date: 2020-08-09 10:20:00 -0700
 categories: blog
 ---
-Below code examine on how to integrate a popup contact form using Bootstrap and how to insert data into a database using PHP & MySQL. 
+Below code examine on how to integrate a popup/modal contact form using Bootstrap and how to insert data into a database using PHP & MySQL. 
 Basic bootstrap integrated html page code cast as below:
 
 {% highlight html %}
