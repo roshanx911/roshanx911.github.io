@@ -50,8 +50,8 @@ Below code examine on how to integrate a popup/modal contact form using Bootstra
 	<p class="text-center muted">&copy; 2020 Bootstrap Contact Form with PHP and MySQL</p>
 	<!-- End Footer -->
 	<!-- JavaScript -->
-        <script src="js/jquery.js"></script>
-        <script src="js/bootstrap.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/bootstrap.js"></script>
 	<!-- End JavaScript -->
 </body>
 </html>
