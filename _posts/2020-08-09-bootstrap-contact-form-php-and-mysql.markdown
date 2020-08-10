@@ -102,7 +102,32 @@ Below code examine on how to integrate a popup/modal contact form using Bootstra
 </section>
 {% endhighlight %}
 
+- To activate the visibility of popup/modal contact form is can be linked by button below:
+{% highlight html %}
+<section>
+	<div class="container">
+		<div class="row">
+			<br /><br />
+				<h1 style="text-align:center">Click link below...</h1>
+			<br /><br />
+				<button type="button" class="btn btn-info btn-lg btn-block" data-toggle="modal" data-target="#modal-contact-form">Be Connected</button>
+			<br /><br /><br /><br />
+		</div>
+	</div>
+</section>
+{% endhighlight %}
 
+- As mention above in previous code snippet, to complete the form need to add the below “php” code snippet inside of above code just after the end of [div class="row"] tag.
+``` php
+<?php
+	if(isset($_POST["contact_name"])) 
+	{
+		include('contact-on.php');
+	}
+?>
+```
 
+- “php” inside of “html” code should cast as below:
+![alt text](https://imgur.com/mwRV211)
 {% highlight html %}
 {% endhighlight %}
