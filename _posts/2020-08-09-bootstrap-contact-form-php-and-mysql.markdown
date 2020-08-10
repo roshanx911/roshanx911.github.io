@@ -128,6 +128,7 @@ Below code examine on how to integrate a popup/modal contact form using Bootstra
 ```
 
 - “php” inside of “html” code should cast as below:
-![alt text](https://imgur.com/mwRV211)
+![alt text](https://i.imgur.com/mwRV211.png)
+
 {% highlight html %}
 {% endhighlight %}
