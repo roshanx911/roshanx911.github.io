@@ -5,7 +5,7 @@ date: 2020-08-09 10:20:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-Below code examine on how to integrate a popup/modal contact form using Bootstrap and how to insert data into a database using PHP & MySQL.<!--more--> Basic bootstrap integrated html page code cast as below:
+Below code examine on how to integrate a popup/modal contact form using Bootstrap and how to insert data into a database using PHP & MySQL. <!--more-->Basic bootstrap integrated html page code cast as below:
 
 {% highlight html %}
 <!DOCTYPE html>
