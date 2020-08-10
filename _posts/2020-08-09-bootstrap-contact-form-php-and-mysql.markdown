@@ -40,7 +40,7 @@ Below code examine on how to integrate a popup/modal contact form using Bootstra
 		</div>
 	</div> <!-- End Navbar -->
 	<!-- Footer -->
-    <hr />
+	<hr />
 	<ul class="inline text-center">
 		<li><strong>Follow On:</strong></li>
 		<li><a href="">Twitter</a></li>
