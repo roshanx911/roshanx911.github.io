@@ -136,8 +136,6 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 - Once click the button “Be Connected” or menu link “Contact” contact-form will pop-up while freezing the background page. The contact-form interface cast as below:
 ![alt text](https://i.imgur.com/hxUiGaS.png)
 
-> Note: Even though this page written in “html” needed to save this as a .php (php extension) instead of .html (html extension), doing that will make run through the “php” code which written inside of this page.
-
 - Step by step guide leads to finalize page code should cast as below:
 {% highlight html %}
 <!DOCTYPE html>
@@ -246,3 +244,5 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 </body>
 </html>
 {% endhighlight %}
+
+> Note: Even though this page written in “html” needed to save this as a .php (php extension) instead of .html (html extension), doing that will make run through the “php” code which written inside of this page.
