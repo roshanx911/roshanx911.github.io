@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 Below code examine on how to integrate a popup/modal contact-form using Bootstrap and how to insert data into a database using PHP & MySQL. <!--more-->Basic bootstrap integrated html page code cast as below:
 
-{% highlight html %}
+``` html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -56,7 +56,7 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 	<!-- End JavaScript -->
 </body>
 </html>
-{% endhighlight %}
+```
 
 - Adding popup/modal contact-form to the page:
 {% highlight html %}
