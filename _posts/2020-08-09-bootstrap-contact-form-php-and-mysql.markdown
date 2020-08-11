@@ -6,7 +6,7 @@ categories: blog
 excerpt_separator: <!--more-->
 ---
 Below code examine on how to integrate a popup/modal contact-form using Bootstrap and how to insert data into a database using PHP & MySQL. <!--more-->Basic bootstrap integrated html page code cast as below:
-``` html
+{% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -55,10 +55,10 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 	<!-- End JavaScript -->
 </body>
 </html>
-```
+{% endhighlight %}
 
 - Adding popup/modal contact-form to the page:
-``` html
+{% highlight html %}
 <section>
 	<!-- Modal Contact Form -->
 	<div class="modal hide fade" id="modal-contact-form">
@@ -99,10 +99,10 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 		</div>
 	</div> <!-- End Modal Contact Form -->
 </section>
-```
+{% endhighlight %}
 
 - To activate the visibility of popup/modal contact-form is can be linked by button below:
-``` html
+{% highlight html %}
 <section>
 	<div class="container">
 		<div class="row">
@@ -114,7 +114,7 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 		</div>
 	</div>
 </section>
-```
+{% endhighlight %}
 
 - As mention above in previous code snippet, to complete the form need to add the below “php” code snippet inside of above code just after the end of [div class="row"] tag.
 ``` php
@@ -136,7 +136,7 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 ![alt text](https://i.imgur.com/hxUiGaS.png)
 
 - Step by step guide leads to finalize page code should cast as below:
-``` html
+{% highlight html %}
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -242,7 +242,7 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 	<!-- End JavaScript -->
 </body>
 </html>
-```
+{% endhighlight %}
 
 > Note: Even though this page written in “html” needed to save this as a .php (php extension) instead of .html (html extension), doing that will make run through the “php” code which written inside of this page.
 
