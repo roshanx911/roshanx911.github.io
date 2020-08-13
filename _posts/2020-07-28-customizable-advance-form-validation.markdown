@@ -42,21 +42,21 @@ When it comes to multiple forms and advance form fields these build-in validatio
 
 This validation-engine base on jQuery (A JavaScript Library), first of all you need to install jQuery to your web application. There are few ways to add it to your web application, the most common ways are:
 
-* Download the [jQuery Library][jQuery-Library] & add it to local development location
+- Download the [jQuery Library][jQuery-Library] & add it to local development location
 {% highlight html %}
 <script src="js/jquery-3.5.1.min.js "></script>
 {% endhighlight %}
 
 OR
 
-* Include jQuery link from a [jQuery CDN][jQuery-CDN]
+- Include jQuery link from a [jQuery CDN][jQuery-CDN]
 {% highlight html %}
 <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
 {% endhighlight %}
 
 > Note: It’s always a proper tendency to include jQuery or JavaScript in the end of the body-tag just before closing.
 
-* [Download][] & include validation-engine to local development path (This contains validation-engine & customizable theme CSS)
+- [Download][] & include validation-engine to local development path (This contains validation-engine & customizable theme CSS)
 {% highlight html %}
 <script src="validate/js/languages/jquery.validationEngine-en.js" type="text/javascript" charset="utf-8"></script>
 <script src="validate/js/jquery.validationEngine.js" type="text/javascript" charset="utf-8"></script>
@@ -64,7 +64,7 @@ OR
 <link rel="stylesheet" href="validate/css/template.css" type="text/css"/>
 {% endhighlight %}
 
-* To activate the binds in-between validation-engine & the actual form is can be linked by form “id”
+- To activate the binds in-between validation-engine & the actual form is can be linked by form “id”
 {% highlight html %}
 <form class="form-horizontal"  id="formID" method="POST">
 </form>
@@ -79,7 +79,7 @@ OR
 </script>
 {% endhighlight %}
 
-* Sample form field validations
+- Sample form field validations
 {% highlight html %}
 <form class="form-horizontal"  id="formID" method="POST">
   <div class="control-group">
@@ -115,7 +115,7 @@ OR
 </form>
 {% endhighlight %}
 
-* The validation-engine attributes are call by “class”, sample code segments are as below:
+- The validation-engine attributes are call by “class”, sample code segments are as below:
 {% highlight html %}
 <input type="text" class="validate[required]"/>
 <input type="text" class="validate[required,maxSize[30]"/>
@@ -125,7 +125,7 @@ OR
 <textarea class="validate[required]"></textarea>
 {% endhighlight %}
 
-* Dependant form validations
+- Dependant form validations
 {% highlight html %}
 <input type="checkbox" class="input-large" id="rolex" name="rolex"/>
 <input type="checkbox" class="input-large" id="prox" name="prox"/>
@@ -136,7 +136,7 @@ OR
 <input type="text" class="validate[condRequired[prox],maxSize[25]]"/>
 {% endhighlight %}
 
-* Check whether passwords matched or not
+- Check whether passwords matched or not
 {% highlight html %}
 <input type="password" class="validate[required,minSize[5],maxSize[10]]" id="password" name="password"/>
 <input type="password" class="validate[required,equals[password]]" id="password2" name="password2"/>
