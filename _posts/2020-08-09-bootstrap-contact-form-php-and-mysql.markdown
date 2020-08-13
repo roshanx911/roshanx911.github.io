@@ -128,12 +128,15 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 ```
 
 - “php” inside of “html” code should cast as below:
+
 ![alt text](https://i.imgur.com/mwRV211.png)
 
 - Once follow the above mention step by step guide Bootstrap integrated page interface cast as below:
+
 ![alt text](https://i.imgur.com/KYSbGHB.png)
 
 - Once click the button “Be Connected” or menu link “Contact” contact-form will pop-up while freezing the background page. The contact-form interface cast as below:
+
 ![alt text](https://i.imgur.com/hxUiGaS.png)
 
 - Step by step guide leads to finalize page code should cast as below:
@@ -248,6 +251,7 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 > Note: Even though this page written in “html” needed to save this as a .php (php extension) instead of .html (html extension), doing that will make run through the “php” code which written inside of this page.
 
 - Once finalize the popup contact-form page, need to create a database in “localhost –> phpMyAdmin”, first of all need to specify the “database name”, and then inside of that database import the following “sql” query.
+
 ``` sql
 -- phpMyAdmin SQL Dump
 -- version 5.0.2
@@ -291,6 +295,7 @@ COMMIT;
 > Note: When creating the database specified “database name” & “database table name” is very crucial, moreover once accessing the database using “php” scripting language is addressed by “database name” & “database table name”.
 
 - Once finalize the database next step is to insert the data which we collect from “contact-form”. To do that need to write code snippet as below:
+
 ``` php
 <?php
 	$contact_name=$_POST["contact_name"];
