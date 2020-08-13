@@ -116,7 +116,8 @@ Below code examine on how to integrate a popup/modal contact-form using Bootstra
 </section>
 {% endhighlight %}
 
-- As mention above in previous code snippet, to complete the form need to add the below “php” code snippet inside of above code just after the end of [div class="row"] tag.
+- As mention above in previous code snippet, to complete the form need to add the below “php” code snippet inside of above code just after the end of `<div class="row">` tag.
+
 ``` php
 <?php
 	if(isset($_POST["contact_name"])) 
