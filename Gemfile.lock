@@ -1,3 +1,4 @@
+gem "kramdown", ">= 2.3.0"
 GEM
   remote: https://rubygems.org/
   specs:
