@@ -11,7 +11,7 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
 
 ![alt text](https://i.imgur.com/Syjw2UB.png)
 
-> Note: Hierarchy Diagram is an architectural diagram, which represent the structured design of the system using simple notations. This is an useful diagram to understand the dynamic structure of a system.
+> Note: Hierarchy Diagram is an architectural diagram, which represent the structured design of the system using simple notations. This is a useful diagram to understand the dynamic structure of a system.
 
 {% highlight html %}
 
