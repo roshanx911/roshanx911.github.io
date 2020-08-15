@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 Following code examine on how to create an admin-panel & CRUD (Create, Read, Update, Delete) web application using Bootstrap, PHP & MySQL. <!--more-->
 
-- Below represent the CRUD Admin-Panel Hierarchy Diagram:
+Below represent the CRUD Admin-Panel Hierarchy Diagram:
 
 ![alt text](https://i.imgur.com/Syjw2UB.png)
 
