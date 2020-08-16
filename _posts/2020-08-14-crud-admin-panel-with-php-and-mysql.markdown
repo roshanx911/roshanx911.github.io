@@ -200,7 +200,7 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 ?>
 ```
 
-- Once the above code execute if functions and statements are true with verification of the database it will move to “inlog-navigate.php” if not show message as in “inlog-error.html”.
+- Once the above code execute if functions and statements are true with verification of the database, it will move to “inlog-navigate.php” if not show message as in “inlog-error.html”.
 
 ``` php
 <?php 
