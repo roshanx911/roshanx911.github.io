@@ -231,7 +231,18 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 </div>
 {% endhighlight %}
 
+- As mention in previous code “inlog-navigate.php” while log-into system if role session is not set this message will appear “inlog-error-role.html”.
 
-
-
+{% highlight html %}
+<div class="row">
+	<div class="span1"></div>
+	<div class="span5">
+		<div class="alert-block">
+			<a href="#" class="close" data-dismiss="alert">&times;</a>
+			<strong>Error !</strong> Invalid System Role, Not Authorized&nbsp;
+			<a class="btn" href="index.php">Try Again</a>&nbsp;&nbsp;
+		</div>
+	</div>
+</div>
+{% endhighlight %}
 
