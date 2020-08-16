@@ -246,3 +246,38 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 </div>
 {% endhighlight %}
 
+- Below code “inlog-navigate-role.php” determine to start the role session if the prefer database login-info is matched with entered login-info, this will lead to CURD Admin-Panel. If not this message will appear “inlog-error-in.html”.
+
+``` php
+<?php 
+	session_start();
+	
+	$role = $_SESSION['role'];
+	
+	if($role=='admin')
+	{
+		header("location:panel-admin-detail.php");
+	}	
+	else
+	{
+		header("location:inlog-error-in.html");
+		session_destroy();
+	}
+?>
+```
+
+{% highlight html %}
+<div class="container">
+    <div class="row">
+        <div class="span5 offset3">
+            <div class="alert-block">
+                <a href="#" class="close" data-dismiss="alert">&times;</a>
+                <strong>Error ! </strong> System Role, State Not Determine&nbsp;
+                <a class="btn" href="index.php">Try Again</a>&nbsp;&nbsp;
+            </div>
+        </div>
+    </div>
+</div>
+{% endhighlight %}
+
+
