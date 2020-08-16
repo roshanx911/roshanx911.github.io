@@ -117,4 +117,33 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 </html>
 {% endhighlight %}
 
+- Below code snippet written to determine whether the admin role is set or not. [Inside of “index.php”]
+
+``` php
+<?php
+	session_start();
+
+	if(isset($_SESSION['role']))
+	{
+		header("location:inlog-navigate-role.php");
+	}
+?>
+```
+
+- Below code snippet written to post the collected form data. [Inside of “index.php”]
+
+``` php
+<?php
+	if(isset($_POST["user_name"])) 
+	{
+		include('inlog-log.php');
+	}
+?>
+```
+
+- Bootstrap integrated PHP Admin-Panel login page interface cast as below:
+
+![alt text](https://i.imgur.com/KLno1QZ.png)
+
+
 
