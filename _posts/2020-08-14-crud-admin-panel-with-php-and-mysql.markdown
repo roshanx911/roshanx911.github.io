@@ -145,5 +145,61 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 
 ![alt text](https://i.imgur.com/KLno1QZ.png)
 
+- For secure purpose "inlog-log.php" only include below code.
+
+``` php
+<?php
+	include('inlog-loger.php');
+?>
+```
+
+- Below code "inlog-loger.php" is function as a validation between form data and database, in according to verification it will move forward or show relevant messages.
+
+``` php
+<?php 
+	if(isset($_SESSION['role']))
+	{
+		include('inlog-navigate.php');  
+	}
+	
+	$username=$_POST["user_name"];
+	$password=$_POST["password"];
+
+	$con=mysqli_connect("localhost","root") or die ("<div class=\"row\"><div class=\"span2\"></div>
+					 <div class=\"span3\"><div class=\"alert-block\">
+					 <a href=\"\" class=\"close\" data-dismiss=\"alert\">&times;</a>
+					 <strong>Error !</strong> Server Can't Access !
+					 </div>
+					 </div></div>");  
+	$db=mysqli_select_db($con,"dbnew2") or die ("<div class=\"row\"><div class=\"span2\"></div>
+					 <div class=\"span3\"><div class=\"alert-block\">
+					 <a href=\"\" class=\"close\" data-dismiss=\"alert\">&times;</a>
+					 <strong>Error !</strong> Database Can't Access !
+					 </div>
+					 </div></div>");	
+	$sql="SELECT * FROM login WHERE rolename='$username' and password='$password'";		
+	$query=mysqli_query($con,$sql) or die ("<div class=\"row\"><div class=\"span2\"></div>
+					 <div class=\"span3\"><div class=\"alert-block\">
+					 <a href=\"\" class=\"close\" data-dismiss=\"alert\">&times;</a>
+					 <strong>Error !</strong> Check SQL Statement !
+					 </div>
+					 </div></div>");
+		
+		if(mysqli_affected_rows($con)>0)
+		{
+			$row = mysqli_fetch_array($query);	
+			$_SESSION['username'] = $row['rolename']; 
+			$_SESSION['role'] = $row['role'];
+			include('inlog-navigate.php');
+		}
+		else
+		{
+			include('inlog-error.html');
+		}		
+	mysqli_close($con);
+?>
+```
+
+
 
 
