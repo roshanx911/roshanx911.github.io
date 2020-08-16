@@ -130,7 +130,7 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 ?>
 ```
 
-- Below code snippet written to post the collected form data. [Inside of “index.php”]
+- Below code snippet written to post the collected form-data. [Inside of “index.php”]
 
 ``` php
 <?php
@@ -145,7 +145,7 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 
 ![alt text](https://i.imgur.com/KLno1QZ.png)
 
-- For secure purpose "inlog-log.php" only include below code.
+- For secure purpose "inlog-log.php" include only below code.
 
 ``` php
 <?php
@@ -153,7 +153,7 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 ?>
 ```
 
-- Below code "inlog-loger.php" is function as a validation between form data and database, in according to verification it will move forward or show relevant messages.
+- Below code "inlog-loger.php" function as a validation between form-data and database, in according to verification it will move forward or show relevant messages.
 
 ``` php
 <?php 
@@ -199,6 +199,38 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 	mysqli_close($con);
 ?>
 ```
+
+- Once the above code execute if functions and statements are true with verification of the database it will move to “inlog-navigate.php” if not show message as in “inlog-error.html”.
+
+``` php
+<?php 
+	$role = $_SESSION['role'];
+	
+	if($role=='admin')
+	{
+		header("location:panel-admin-detail.php");
+	}
+	else
+	{
+		include('inlog-error-role.html');
+		session_destroy();
+	}
+?>
+```
+
+{% highlight html %}
+<div class="row">
+	<div class="span1"></div>
+	<div class="span5">
+		<div class="alert-block">
+			<a href="#" class="close" data-dismiss="alert">&times;</a>
+			<strong>Login Error!</strong> Invalid User Name or Password&nbsp;
+			<a class="btn" href="index.php">Try Again</a>&nbsp;&nbsp;
+		</div>
+	</div>
+</div>
+{% endhighlight %}
+
 
 
 
