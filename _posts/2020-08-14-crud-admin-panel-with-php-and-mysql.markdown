@@ -84,11 +84,11 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
                     </fieldset>
                 </form>
                 <?php
-			  		if(isset($_POST["user_name"])) 
-					{
-						include('inlog-log.php');
-					}
-			  ?>
+                    if(isset($_POST["user_name"])) 
+                    {
+                        include('inlog-log.php');
+                    }
+                ?>
             </div>
         </div>
         <!-- End User Login -->
