@@ -300,4 +300,7 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 ?>
 ```
 
+- With proper user-name and password will log-into CURD Admin-Panel, login admin user-name will show as in below figure:
+
+![alt text](https://i.imgur.com/twEiAy7.png)
 
