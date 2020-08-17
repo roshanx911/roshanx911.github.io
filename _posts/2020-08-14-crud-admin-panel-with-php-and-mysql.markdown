@@ -280,7 +280,7 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 </div>
 {% endhighlight %}
 
-- Once log-into CURD Admin-Panel, following pages “panel-admin-add.php”, “panel-admin-detail.php”, “panel-admin-edit.php”, and “panel-admin-remove.php” are consist of `<?php include('role-admin.php'); ?>` which seek if the login user is an authorized admin, if not it will redirect to “index.php”. “role-admin.php” code cast as below:
+- Once log-into CURD Admin-Panel, following pages “panel-admin-add.php”, “panel-admin-detail.php”, “panel-admin-edit.php”, and “panel-admin-remove.php” are consist of `<? php include('role-admin.php'); ?>` which seek if the login user is an authorized admin, if not it will redirect to “index.php”. “role-admin.php” code cast as below:
 
 ``` php
 <?php
