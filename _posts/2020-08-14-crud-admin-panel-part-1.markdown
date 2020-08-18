@@ -304,7 +304,9 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 
 ![alt text](https://i.imgur.com/twEiAy7.png)
 
-> Now you have created an Admin-Panel and log-into it. For further development of CRUD Admin-Panel Web-Application read the below articles.<hr />
+> Now you have created an Admin-Panel and log-into it. For further development of CRUD Admin-Panel Web-Application read the below articles.
+
+* * *
 
 > [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-1 (Admin-Panel)][Part-1]
 > 
