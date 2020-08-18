@@ -319,7 +319,7 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 > [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-6 (Database-Implementation)][Part-6]
 > 
 
-[Part-1]: 
+[Part-1]: https://roshanx911.github.io/blog/2020/08/14/crud-admin-panel-part-1.html
 [Part-2]: 
 [Part-3]: 
 [Part-4]: 
