@@ -39,8 +39,8 @@ minima:
 copyright: "Copyrights by Roshan Perera"
 
 # Build settings
-paginate: 3
 markdown: kramdown
+paginate: 3
 # theme: minima
 remote_theme: jekyll/minima
 plugins:
@@ -49,6 +49,16 @@ plugins:
   - jekyll-seo-tag
   - jemoji
   - jekyll-paginate 
+  - jekyll-paginate-v2
+
+collections:
+ releases:
+   output: true
+   permalink: /posts/:path/
+
+permalink: pretty
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
