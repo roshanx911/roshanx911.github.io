@@ -39,6 +39,7 @@ minima:
 copyright: "Copyrights by Roshan Perera"
 
 # Build settings
+paginate: 3
 markdown: kramdown
 # theme: minima
 remote_theme: jekyll/minima
