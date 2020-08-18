@@ -99,7 +99,7 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
                     </form>
                     <?php
                     if(isset($_POST["contact_name"]))
-					{
+                    {
                         include('panel-admin-add-on.php');
                     }
                     ?>
