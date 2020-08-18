@@ -5,8 +5,10 @@ date: 2020-07-28 09:26:19 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
+Following code examine on how to integrate and customize advance form validation to a web application, instead of using vanilla bootstrap form validation.<!--more-->
+
 ### Vanilla Bootstrap Form Validation:
-Few years’ way back Client-side form validation is a mess, but these days Client-side form validation can be done simply with integration of Front-End Frameworks such as “bootstrap”. <!--more-->Due to its simplicity nature, basic bootstrap form with validation outlook as below:
+Few years’ way back Client-side form validation is a mess, but these days Client-side form validation can be done simply with integration of Front-End Frameworks such as “bootstrap”. Due to its simplicity nature, basic bootstrap form with validation outlook as below:
 
 {% highlight html %}
 <form class="form-horizontal" id="formID" action="" method="POST">
