@@ -304,7 +304,7 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 
 ![alt text](https://i.imgur.com/twEiAy7.png)
 
-> Now you have created an Admin-Panel and log-into it. For further development of CRUD Admin-Panel Web-Application read the below articles.
+> Now you have created an Admin-Panel and log-into it. For further development of CRUD Admin-Panel Web-Application read the below articles.<hr />
 
 > [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-1 (Admin-Panel)][Part-1]
 > 
@@ -320,8 +320,8 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 > 
 
 [Part-1]: https://roshanx911.github.io/blog/2020/08/14/crud-admin-panel-part-1.html
-[Part-2]: 
-[Part-3]: 
-[Part-4]: 
-[Part-5]: 
-[Part-6]: 
+[Part-2]: https://roshanx911.github.io/blog/2020/08/15/crud-admin-panel-part-2.html
+[Part-3]: https://roshanx911.github.io/blog/2020/08/16/crud-admin-panel-part-3.html
+[Part-4]: https://roshanx911.github.io/blog/2020/08/17/crud-admin-panel-part-4.html
+[Part-5]: https://roshanx911.github.io/blog/2020/08/18/crud-admin-panel-part-5.html
+[Part-6]: https://roshanx911.github.io/blog/2020/08/19/crud-admin-panel-part-6.html
