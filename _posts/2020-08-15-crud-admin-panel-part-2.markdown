@@ -164,6 +164,17 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
 ?>
 ```
 
+- In above Create-Data page below code snippet written to post the collected form data into “panel-admin-add-on.php”.
+
+``` php
+<?php
+if(isset($_POST["contact_name"]))
+{
+	include('panel-admin-add-on.php');
+}
+?>
+```
+
 * * *
 
 > [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-1 (Admin-Panel)][Part-1]
