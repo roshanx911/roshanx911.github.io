@@ -5,6 +5,7 @@ date: 2020-08-15 02:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
+Following code examine on how to create an admin-panel & CRUD (Create, Read, Update, Delete) web application using Bootstrap, PHP & MySQL. Part-2 focus on Create-Data: <!--more-->
 
 * * *
 
