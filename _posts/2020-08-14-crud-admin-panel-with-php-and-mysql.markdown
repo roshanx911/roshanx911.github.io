@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CRUD Admin-Panel with Bootstrap, PHP & MySQL"
-date: 2020-08-14 11:10:00 -0700
+date: 2020-08-14 01:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
@@ -304,3 +304,24 @@ Below represent the CRUD Admin-Panel Hierarchy Diagram:
 
 ![alt text](https://i.imgur.com/twEiAy7.png)
 
+> Now you have created an Admin-Panel and log-into it. For further development of CRUD Admin-Panel Web-Application read the below articles.
+
+> [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-1 (Admin-Panel)][Part-1]
+> 
+> [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-2 (Create-Data)][Part-2]
+> 
+> [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-3 (Read-Data)][Part-3]
+> 
+> [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-4 (Update-Data)][Part-4]
+> 
+> [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-5 (Delete-Data)][Part-5]
+> 
+> [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-6 (Database-Implementation)][Part-6]
+> 
+
+[Part-1]: 
+[Part-2]: 
+[Part-3]: 
+[Part-4]: 
+[Part-5]: 
+[Part-6]: 
