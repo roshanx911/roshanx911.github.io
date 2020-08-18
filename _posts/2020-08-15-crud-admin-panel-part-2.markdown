@@ -98,11 +98,11 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
                         </fieldset>
                     </form>
                     <?php
-					if(isset($_POST["contact_name"]))
+                    if(isset($_POST["contact_name"]))
 					{
-						include('panel-admin-add-on.php');
-					}
-			    ?>
+                        include('panel-admin-add-on.php');
+                    }
+                    ?>
                 </div>
             </div>
         </div>
@@ -124,7 +124,7 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
         </section>
     </div>
     <!-- End Container -->	
-	<!-- JavaScript -->
+    <!-- JavaScript -->
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <!-- End JavaScript -->
