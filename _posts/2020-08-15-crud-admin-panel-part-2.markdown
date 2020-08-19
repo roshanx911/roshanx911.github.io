@@ -152,7 +152,7 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
 ?>
 ```
 
-- In above Create-Data page consist of `<?php echo ($user); ?>`, which shows the login admin user-name derived from “role-admin.php”.
+- In above Create-Data page consist of `<? php echo ($user); ?>`, which shows the login admin user-name derived from “role-admin.php”.
 
 - In above Create-Data page contain a link to “inlog-logout.php” which end the session and redirect to “index.php”. “inlog-logout.php” code cast as below:
 
