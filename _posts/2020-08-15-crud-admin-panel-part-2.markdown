@@ -218,7 +218,7 @@ if(isset($_POST["contact_name"]))
 ?> 
 ```
 
-- Once the above code execute if functions and statements are true with verification of the database, it will move forward to Create-Data if not error messages shown.
+- Once the above code execute if functions and statements are true with verification of the database, it will move forward to Create-Data if not error messages shown. Create-Data page interface will cast as in below figure:
 
 ![alt text](https://i.imgur.com/vGhNrRc.png)
 
