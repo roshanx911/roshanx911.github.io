@@ -220,6 +220,8 @@ if(isset($_POST["contact_name"]))
 
 - Once the above code execute if functions and statements are true with verification of the database, it will move forward to Create-Data if not error messages shown.
 
+![alt text](https://i.imgur.com/vGhNrRc.png)
+
 > Now you have implement CRUD Create-Data function. For further development of CRUD Admin-Panel Web-Application read the below articles.
 
 * * *
