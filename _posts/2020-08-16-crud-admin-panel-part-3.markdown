@@ -101,6 +101,131 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
 </html>
 {% endhighlight %}
 
+- In above Read-Data page consist of `<?php include('role-admin.php'); ?>` which seek if the login user is an authorized admin, if not it will redirect to “index.php”. “role-admin.php” code cast as below:
+
+``` php
+<?php
+	session_start();
+	$user = $_SESSION['username'];
+	if(isset($_SESSION['role']))
+	{
+		if($_SESSION['role']!='admin')
+		{
+			header("location:index.php");
+		}
+	}
+	else
+	{
+		header("location:index.php");
+	}
+?>
+```
+
+- In above Read-Data page consist of `<?php echo ($user); ?>`, which shows the login admin user-name derived from “role-admin.php”.
+
+- In above Read-Data page contain a link to “inlog-logout.php” which end the session and redirect to “index.php”. “inlog-logout.php” code cast as below:
+
+``` php
+<?php
+	session_start();
+	session_destroy();
+	header('location:index.php');
+?>
+```
+
+- In above Read-Data page below code snippet written to read the collected form data from “panel-admin-detail-on.php”.
+
+``` php
+<?php								
+	include('panel-admin-detail-on.php');
+?>
+```
+
+- “panel-admin-detail-on.php” code cast as below:
+
+``` php
+<?php
+	$con=mysqli_connect("localhost","root") or die ("<div class=\"row\"><div class=\"span2\"></div>
+					 <div class=\"span3\"><div class=\"alert-block\">
+					 <a href=\"\" class=\"close\" data-dismiss=\"alert\">&times;</a>
+					 <strong>Error !</strong> Server Can't Access !
+					 </div>
+					 </div></div>");  
+	$db=mysqli_select_db($con,"dbnew2") or die ("<div class=\"row\"><div class=\"span2\"></div>
+					 <div class=\"span3\"><div class=\"alert-block\">
+					 <a href=\"\" class=\"close\" data-dismiss=\"alert\">&times;</a>
+					 <strong>Error !</strong> Database Can't Access !
+					 </div>
+					 </div></div>"); 
+	$sql1="SELECT * FROM contact";
+	$query1=mysqli_query($con,$sql1) or die ("<div class=\"row\"><div class=\"span2\"></div>
+					 <div class=\"span4\"><div class=\"alert-block\">
+					 <a href=\"\" class=\"close\" data-dismiss=\"alert\">&times;</a>
+					 <strong>Error !</strong> Check Log Info SQL Statement !
+					 </div>
+					 </div></div>");
+	$nor1=mysqli_num_rows($query1);
+	
+	if($nor1==0)
+    {
+		echo ("<div class=\"span10\"><div class=\"row\">
+		       <div class=\"muted\"> 
+					<h3>Read Message <small>&raquo;</small></h3>
+			   </div></div>
+			   </div>");		
+		echo ("<div class=\"row\">
+					<div class=\"span2\"></div><div class=\"span3\">  
+						<div class=\"alert-block\">
+							<a href=\"#\" class=\"close\" data-dismiss=\"alert\">&times;</a>
+							<strong>Error !</strong> Info Table is Empty !&nbsp;
+						</div>
+					</div>
+				</div>");
+	}
+	else
+	{		        
+		echo ("<div class=\"span10\"><div class=\"row\">
+		       <div class=\"muted\"> 
+					<h3>Read Message <small>&raquo;</small></h3>
+			   </div></div>
+			   </div>");
+		
+		echo ("<div class=\"row-fluid\"><div class=\"span10\"><table class=\"table table-striped table-bordered table-condensed\">");
+				 									
+		echo ("<thead>
+					<tr>
+						<th> Index </th>
+						<th> Name  </th> 
+						<th> Email </th> 
+						<th> Message </th> 			
+					</tr>
+			   </thead>");
+				
+		$index=1;
+				
+ 		while($rec1=mysqli_fetch_assoc($query1))
+ 		{
+			echo("<tbody>");
+			echo("<tr class=\"list-users\">");
+			echo("<td>".$index."</td>"); $index++;
+			echo("<td>".$rec1['name']."</td>");
+			echo("<td>".$rec1['email']."</td>");
+			echo("<td>".$rec1['message']."</td>");
+			echo("</tr>");
+			echo("</tbody>");
+		}
+		echo ("</table></div></div>");				
+	}
+	mysqli_close($con);
+?>
+```
+
+- Once the above code execute if functions and statements are true with verification of the database, it will move forward to Read-Data if not error messages shown. Read-Data page interface will cast as in below figure:
+
+![alt text](https://i.imgur.com/PX3xJGP.png)
+
+> Now you have implement CRUD Read-Data function. For further development of CRUD Admin-Panel Web-Application read the below articles.
+
 * * *
 
 > [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-1 (Admin-Panel)][Part-1]
