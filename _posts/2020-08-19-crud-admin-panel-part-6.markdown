@@ -92,7 +92,7 @@ COMMIT;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 ```
 
-> ** Congratulation! ** Now you have construct a “CRUD Admin-Panel” Web-Application using Bootstrap, PHP & MySQL.
+> Congratulation! Now you have construct a “CRUD Admin-Panel” Web-Application using Bootstrap, PHP & MySQL.
 
 * * *
 
