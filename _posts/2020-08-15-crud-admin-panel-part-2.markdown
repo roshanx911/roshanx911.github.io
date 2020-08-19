@@ -132,7 +132,7 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
 </html>
 {% endhighlight %}
 
-- In above Create-Data page consist of `<? php include('role-admin.php'); ?>` which seek if the login user is an authorized admin, if not it will redirect to “index.php”. “role-admin.php” code cast as below:
+- In above Create-Data page consist of `<?php include('role-admin.php'); ?>` which seek if the login user is an authorized admin, if not it will redirect to “index.php”. “role-admin.php” code cast as below:
 
 ``` php
 <?php
@@ -152,7 +152,7 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
 ?>
 ```
 
-- In above Create-Data page consist of `<? php echo ($user); ?>`, which shows the login admin user-name derived from “role-admin.php”.
+- In above Create-Data page consist of `<?php echo ($user); ?>`, which shows the login admin user-name derived from “role-admin.php”.
 
 - In above Create-Data page contain a link to “inlog-logout.php” which end the session and redirect to “index.php”. “inlog-logout.php” code cast as below:
 
