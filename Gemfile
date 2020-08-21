@@ -30,5 +30,5 @@ gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Default pagination generator for Jekyll
 # gem 'jekyll-paginate'
-gems: [jekyll-paginate-v2]
+gem 'jekyll-paginate-v2'
 
