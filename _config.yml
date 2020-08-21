@@ -58,6 +58,9 @@ pagination:
   debug: false
   collection: 'posts'
   per_page: 5
+  limit: 0
+  sort_field: 'date'
+  category: 'posts'
 
 # Exclude from processing.
 # The following items will not be processed, by default.
