@@ -51,7 +51,7 @@ plugins:
   - jemoji
 
 # Pagination settings
-# paginate: 5
+paginate: 5
 
 pagination:
   enabled: true
