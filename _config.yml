@@ -40,9 +40,6 @@ copyright: "Copyrights by Roshan Perera"
 
 # Build settings
 markdown: kramdown
-highlighter: rouge
-kramdown:
-  input: GFM
 remote_theme: jekyll/minima
 plugins:
   - jekyll-feed
