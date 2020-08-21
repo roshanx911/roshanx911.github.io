@@ -51,13 +51,12 @@ plugins:
   - jemoji
 
 # Pagination settings
-
+# paginate: 5
 
 pagination:
   enabled: true
   debug: false
   collection: 'posts'
-  paginate: 5
   per_page: 5
   limit: 0
   sort_field: 'date'
