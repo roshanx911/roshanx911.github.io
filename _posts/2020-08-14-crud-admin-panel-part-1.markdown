@@ -3,6 +3,8 @@ layout: post
 title: "CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-1 (Admin-Panel)"
 date: 2020-08-14 01:00:00 -0700
 categories: blog
+pagination: 
+  enabled: true
 excerpt_separator: <!--more-->
 ---
 Following code examine on how to create an admin-panel & CRUD (Create, Read, Update, Delete) web application using Bootstrap, PHP & MySQL. Part-1 focus on Admin-Panel. <!--more-->
