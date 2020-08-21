@@ -3,6 +3,8 @@ layout: post
 title: "Customizable Advance Form Validation"
 date: 2020-07-28 09:26:19 -0700
 categories: blog
+pagination: 
+  enabled: true
 excerpt_separator: <!--more-->
 ---
 Following code examine on how to integrate and customize advance form validation to a web application, instead of using vanilla bootstrap form validation. <!--more-->
