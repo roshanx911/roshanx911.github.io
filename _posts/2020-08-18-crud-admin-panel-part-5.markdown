@@ -3,8 +3,6 @@ layout: post
 title: "CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-5 (Delete-Data)"
 date: 2020-08-18 05:00:00 -0700
 categories: blog
-pagination: 
-  enabled: true
 excerpt_separator: <!--more-->
 ---
 Following code examine on how to create an admin-panel & CRUD (Create, Read, Update, Delete) web application using Bootstrap, PHP & MySQL. Part-5 focus on Delete-Data. <!--more-->
