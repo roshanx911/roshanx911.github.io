@@ -36,7 +36,7 @@ The Basis of a Project’s Definition for the Following Three Reasons:
 
 * * *
 
-SDLC [Abbreviation] - Software Development Life Cycle [Term]
+> SDLC [Abbreviation] - Software Development Life Cycle [Term]
 
 > [Reference]
 >
