@@ -40,4 +40,5 @@ The Basis of a Project’s Definition for the Following Three Reasons:
 > ― Project Management for Dummies - By Stanley E. Portny - 2010
 > 
 > ― Successful Project Management - By Larry Richman - 2011
+> 
 
