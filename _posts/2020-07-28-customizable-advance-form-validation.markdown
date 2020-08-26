@@ -7,7 +7,7 @@ excerpt_separator: <!--more-->
 ---
 Following code examine on how to integrate and customize advance form validation to a web application, instead of using vanilla bootstrap form validation. <!--more-->
 
-### Vanilla Bootstrap Form Validation:
+#### Vanilla Bootstrap Form Validation:
 Few years’ way back Client-side form validation is a mess, but these days Client-side form validation can be done simply with integration of Front-End Frameworks such as “bootstrap”. Due to its simplicity nature, basic bootstrap form with validation outlook as below:
 
 {% highlight html %}
@@ -39,7 +39,7 @@ Few years’ way back Client-side form validation is a mess, but these days Clie
 </form>
 {% endhighlight %}
 
-### Customizable Advance Form Validation:
+#### Customizable Advance Form Validation:
 When it comes to multiple forms and advance form fields these build-in validations get tricky & annoying, that’s where something like customizable form validation-engine comes in handy. The following steps can be used to integrate it into your web application.
 
 This validation-engine base on jQuery (A JavaScript Library), first of all you need to install jQuery to your web application. There are few ways to add it to your web application, the most common ways are:
