@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Development Aspect of a Web Application, Part 01"
+title: "Development Aspect of a Web Application (SDLC), Part 01"
 date: 2020-08-25 06:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
@@ -35,6 +35,8 @@ The Basis of a Project’s Definition for the Following Three Reasons:
 > 
 
 * * *
+
+SDLC [Abbreviation] - Software Development Life Cycle [Term]
 
 > [Reference]
 >
