@@ -31,7 +31,8 @@ The Basis of a Project’s Definition for the Following Three Reasons:
 
 > Because of good project management means thinking, researching, finding ideas, planning, developing, testing and implementing. While the very simplest projects can be managed easily by applying common sense and just getting on with things, projects that are more complex need a great deal of planning, and benefit from a formal, disciplined management approach. 
 > 
-> From making sure that activities will actually meet the specified need, to devising a workable schedule, developing systems for reporting progress, and managing requests for changes, all of these issues require thoughtful consideration. Moreover while development, above refer Project Management volumes used further characterize way to overcome project behaviorism.
+> From making sure that activities will actually meet the specified need, to devising a workable schedule, developing systems for reporting progress, and managing requests for changes, all of these issues require thoughtful consideration.
+> 
 
 * * *
 
