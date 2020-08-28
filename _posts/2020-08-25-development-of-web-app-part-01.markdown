@@ -29,7 +29,7 @@ The Basis of a Project’s Definition for the Following Three Reasons:
 
 (Portny, 2010)
 
-Project Management Lifecycle commonly subdivides the process into phases similar to the following:
+#### Project Management Lifecycle commonly subdivides the process into phases similar to the following:
 
 | Process | What Occurs |
 | - - - | - - -|
@@ -39,7 +39,7 @@ Project Management Lifecycle commonly subdivides the process into phases similar
 | Monitoring & Control | Evaluating and reporting project status |
 | Closing | Ending all project activity |
 
-Project Management Lifecycle - Operate Flow 
+#### Project Management Lifecycle - Operate Flow 
 
 ![alt text](https://i.imgur.com/7DZWArR.png)
 
