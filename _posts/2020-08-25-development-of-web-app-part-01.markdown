@@ -29,6 +29,23 @@ The Basis of a Project’s Definition for the Following Three Reasons:
 
 (Portny, 2010)
 
+Project Management Lifecycle commonly subdivides the process into phases similar to the following:
+
+| Process | What Occurs |
+| - - - | - - -|
+| Initiation | Project selection - go/no-go decision |
+| Planning | Identifying all the work that is to be done, scheduling, budgeting, and much more |
+| Execution | Doing the work - building the product |
+| Monitoring & Control | Evaluating and reporting project status |
+| Closing | Ending all project activity |
+
+Project Management Lifecycle - Operate Flow 
+
+![alt text](https://i.imgur.com/7DZWArR.png)
+
+(Portny, 2010)
+
+
 > Because of good project management means thinking, researching, finding ideas, planning, developing, testing and implementing. While the very simplest projects can be managed easily by applying common sense and just getting on with things, projects that are more complex need a great deal of planning, and benefit from a formal, disciplined management approach. 
 > 
 > From making sure that activities will actually meet the specified need, to devising a workable schedule, developing systems for reporting progress, and managing requests for changes, all of these issues require thoughtful consideration.
@@ -37,6 +54,8 @@ The Basis of a Project’s Definition for the Following Three Reasons:
 * * *
 
 > SDLC [Abbreviation] - Software Development Life Cycle [Term]
+
+* * *
 
 > [Reference]
 >
