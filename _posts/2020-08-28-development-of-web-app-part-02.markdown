@@ -20,9 +20,11 @@ This article base on analysis of Software Life Cycle (SLC) & Software Process Mo
 > SPM [Abbreviation] - Software Process Models [Term]
 > 
 > SDLC [Abbreviation] - Software Development Life Cycle [Term]
+> 
 
 * * *
 
 > [Reference]
 > 
 > ―Theory and Problems of Software Engineering - By David A. Gustafson - 2002
+> 
