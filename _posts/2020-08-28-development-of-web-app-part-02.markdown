@@ -15,6 +15,7 @@ This article base on analysis of Software Life Cycle (SLC) & Software Process Mo
 
 The software life cycle is the sequence of different activities that take place during software development.
 A software process model is a simplified representation of a software process.
+
 Each process model represents a process from a particular perspective, and thus provides only partial information about that process.
 Different Phases of software life cycle models available, by considering its functionalities of SPM & project scope deliverables decisions have been made. These are the considered different, most common software process models:
 
