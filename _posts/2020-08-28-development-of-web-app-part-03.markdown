@@ -46,7 +46,7 @@ Generally it has six phases. In each a clear detailed output will be delivered a
 > ― Theory and Problems of Software Engineering - By David A. Gustafson - 2002
 > 
 
-[Part-1]:
+[Part-1]: https://roshanx911.github.io/blog/2020/08/29/development-of-web-app-part-03.html
 [Part-2]:
 [Part-3]:
 [Part-4]:
