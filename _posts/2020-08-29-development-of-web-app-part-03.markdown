@@ -47,7 +47,7 @@ Generally it has six phases. In each a clear detailed output will be delivered a
 > 
 
 [Part-1]: https://roshanx911.github.io/blog/2020/08/29/development-of-web-app-part-03.html
-[Part-2]:
+[Part-2]: https://roshanx911.github.io/blog/2020/08/30/development-of-web-app-part-04.html
 [Part-3]:
 [Part-4]:
 [Part-5]:
