@@ -13,7 +13,7 @@ This model, is also called the waterfall model, it is a kind of software develop
 
 There are many versions of the waterfall model. Although the specific development tasks will occur in almost every development, there are many ways to divide them into phases. Moreover this is an approach to system analysis and design that completes each phase one after another and only once.
 
-![alt text](https://imgur.com/a/zsRuzBi)
+![alt text](https://i.imgur.com/wnMG9e1.png)
 
 Generally it has six phases. In each a clear detailed output will be delivered and those phase‘s output will be the next stage‘s input. Since each phase will be the next phase input; those outputs should be error free. Further this approach is more suitable for projects where requirements are clearly define.
 
