@@ -18,7 +18,6 @@ There are many versions of the waterfall model. Although the specific developmen
 Generally it has six phases. In each a clear detailed output will be delivered and those phase‘s output will be the next stage‘s input. Since each phase will be the next phase input; those outputs should be error free. Further this approach is more suitable for projects where requirements are clearly define.
 
 
-
 > [The Linear Sequential Model][Part-1]
 > 
 > [The Prototyping Model][Part-2]
