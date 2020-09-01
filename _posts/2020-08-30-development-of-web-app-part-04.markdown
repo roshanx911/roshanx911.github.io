@@ -9,10 +9,13 @@ This article base on analysis of Software Life Cycle (SLC) & Software Process Mo
 
 #### The Prototyping Model
 
+Prototyping simply can define as a general approach to gather data from users by building and demonstrating to them some part (incomplete versions) of a potential application. The prototyping paradigm begins with requirements gathering. Developer and customer meet and define the overall objectives for the software, identify whatever requirements are known, and outline areas where further definition is mandatory.
 
+A “quick design” then occurs. The quick design focuses on a representation of those aspects of the software that will be visible to the customer/user (e.g., input approaches and output formats). The quick design leads to the construction of a prototype. The prototype will be used to demonstrate the proposed behavior to the customers. Thereafter prototype is evaluated by the customer and used to refine requirements for the software to be developed. Iteration occurs as the prototype is tuned to satisfy the needs of the customer, while at the same time enabling the developer to better understand what needs to be done. After agreement from the customer, then the software development usually follows the same phases as the linear sequential model.
 
-![alt text]()
+![alt text](https://i.imgur.com/DCQulyb.png)
 
+This also attempts to reduce the inherent project risk by breaking into smaller segments and provide more light-easy change control process during the system development. The effort spent on the prototype usually pays for itself by not developing unnecessary features. Moreover due to user involvement throughout the development process, this increases the likelihood of user acceptance of the final implementation. While most prototypes are developed with the expectation that they will be discarded, it is possible in some cases to evolve from prototype to working system.
 
 
 > [The Linear Sequential Model][Part-1]
