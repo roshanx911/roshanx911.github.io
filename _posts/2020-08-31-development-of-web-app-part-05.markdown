@@ -9,9 +9,15 @@ This article base on analysis of Software Life Cycle (SLC) & Software Process Mo
 
 #### The Incremental Model
 
+D. L. Parnas proposed the incremental model. The goal was to design and deliver to the customer a minimal subset of the whole system that was still a useful system. The process will continue to iterate through the whole life cycle with additional minimal increments. The advantages include giving the customer a working system early and working increments.
 
+The incremental model combines elements of the linear sequential model (applied repetitively) with the iterative philosophy of prototyping. The incremental model applies linear sequences in a staggered fashion as calendar time progresses. Each linear sequence produces a deliverable “increment” of the software.
 
-![alt text]()
+When an incremental model is used, the first increment is often a core product. That is, basic requirements are addressed, but many supplementary features (some known, others unknown) remain undelivered.
+
+The core product is used by the customer (or undergoes detailed review). As a result of use and/or evaluation, a plan is developed for the next increment. The plan addresses the modification of the core product to better meet the needs of the customer and the delivery of additional features and functionality. This process is repeated following the delivery of each increment, until the complete product is produced.
+
+![alt text](https://i.imgur.com/6NpGa0k.png)
 
 
 
