@@ -19,7 +19,7 @@ The core product is used by the customer (or undergoes detailed review). As a re
 
 ![alt text](https://i.imgur.com/6NpGa0k.png)
 
-
+The incremental process model, like prototyping and other evolutionary approaches, is iterative in nature. But unlike prototyping, the incremental model focuses on the delivery of an operational product with each increment. Early increments are stripped down versions of the final product, but they do provide capability that serves the user and also provide a platform for evaluation by the user.
 
 
 > [The Linear Sequential Model][Part-1]
@@ -51,6 +51,6 @@ The core product is used by the customer (or undergoes detailed review). As a re
 
 [Part-1]: https://roshanx911.github.io/blog/2020/08/29/development-of-web-app-part-03.html
 [Part-2]: https://roshanx911.github.io/blog/2020/08/30/development-of-web-app-part-04.html
-[Part-3]:
+[Part-3]: https://roshanx911.github.io/blog/2020/08/31/development-of-web-app-part-05.html
 [Part-4]:
 [Part-5]:
