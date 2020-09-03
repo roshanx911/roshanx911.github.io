@@ -49,6 +49,6 @@ Different Phases of software life cycle models available, by considering its fun
 
 [Part-1]: https://roshanx911.github.io/blog/2020/08/29/development-of-web-app-part-03.html
 [Part-2]: https://roshanx911.github.io/blog/2020/08/30/development-of-web-app-part-04.html
-[Part-3]:
-[Part-4]:
+[Part-3]: https://roshanx911.github.io/blog/2020/08/31/development-of-web-app-part-05.html
+[Part-4]: https://roshanx911.github.io/blog/2020/09/02/development-of-web-app-part-06.html
 [Part-5]:
