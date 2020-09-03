@@ -5,7 +5,7 @@ date: 2020-09-03 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-This article base on analysis of Software Life Cycle (SLC) & Software Process Models (SPM) and why we need to follow-through these in development process. Part-6 focus on Evolutionary / RAD Model. <!--more-->
+This article base on analysis of Software Life Cycle (SLC) & Software Process Models (SPM) and why we need to follow-through these in development process. Part-7 focus on Evolutionary / RAD Model. <!--more-->
 
 #### The Evolutionary / RAD Model
 
