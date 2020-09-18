@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Customizable Advance Form Validation"
-date: 2020-07-28 09:26:19 -0700
+date: 2020-07-28 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
