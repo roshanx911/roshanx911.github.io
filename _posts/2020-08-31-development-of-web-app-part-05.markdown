@@ -5,7 +5,6 @@ date: 2020-08-31 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-005
 This article base on analysis of Software Life Cycle (SLC) & Software Process Models (SPM) and why we need to follow-through these in development process. Part-05 focus on Incremental Model. <!--more-->
 
 #### The Incremental Model
