@@ -5,7 +5,6 @@ date: 2020-09-02 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-006
 This article base on analysis of Software Life Cycle (SLC) & Software Process Models (SPM) and why we need to follow-through these in development process. Part-06 focus on Spiral Model. <!--more-->
 
 #### The Spiral Model
