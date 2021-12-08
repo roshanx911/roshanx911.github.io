@@ -5,7 +5,7 @@ date: 2020-08-28 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-CHANGE 00
+CHANGE
 This article base on analysis of Software Life Cycle (SLC) & Software Process Models (SPM) and why we need to follow-through these in development process. Part-02 focus on SDLC in general. <!--more--> 
 
 #### Software Life Cycle & Activities
