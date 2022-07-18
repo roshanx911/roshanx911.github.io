@@ -1,28 +1,37 @@
 ---
 layout: default
 ---
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="/">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
+<div class="posts">
+    {% for post in paginator.posts %}
+    {% capture url_to_use %}{{ post.url }}{% endcapture %}
+    {% if post.redirect_url %}
+       {% capture url_to_use %}{{ post.redirect_url }}{% endcapture %}
     {% endif %}
+    <article class="post">
+      <h1><a href="{{ url_to_use }}">{{ post.title }}</a></h1>
+      <div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
+      <div class="entry">
+         {{ post.excerpt | add: '...'}}<!-- span style="display: inline">…</span-->
+      </div>
+      <a href="{{ url_to_use }}" class="read-more">More…</a>
+     </article>
   {% endfor %}
+</div>
 
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
+<!-- Pagination links -->
+
+<div class="pagination" style="text-align: center;">
+  <div style="color:#eee;padding-bottom: .6em;">~</div>
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">⇦</a>
   {% else %}
-    <span>Next &raquo;</span>
+    <span class="previous" style="color:#eee">⇦</span>
+  {% endif %}
+  <span class="page_number ">Page {{ paginator.page }} of {{ paginator.total_pages }}</span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">⇨</a>
+  {% else %}
+    <span class="next" style="color:#eee">⇨</span>
   {% endif %}
 </div>
-{% endif %}
