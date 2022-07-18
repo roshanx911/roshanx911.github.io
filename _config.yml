@@ -42,14 +42,15 @@ copyright: "Copyrights by Roshan Perera"
 markdown: kramdown
 remote_theme: jekyll/minima
 plugins:
-  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate
+  - jekyll-algolia
   - jemoji
 
 excerpt_separator: <!--more-->
-# paginate: 5
+paginate: 5
 # paginate: 5
 # paginate_path: "/blog/page:num/"
 
