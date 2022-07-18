@@ -46,7 +46,6 @@ plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-algolia
   - jemoji
 
 excerpt_separator: <!--more-->
