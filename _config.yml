@@ -42,10 +42,14 @@ copyright: "Copyrights by Roshan Perera"
 markdown: kramdown
 remote_theme: jekyll/minima
 plugins:
+  - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
   - jekyll-seo-tag
   - jemoji
+
+paginate: 5
+paginate_path: "/blog/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
