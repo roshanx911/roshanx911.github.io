@@ -40,6 +40,8 @@ layout: default
       <!-- Do nothing -->
     {% elsif page == paginator.page %}
       <span class="ml-1 mr-1">{{ page }}&nbsp;Of&nbsp;{{ paginator.total_pages }}</span>
+      <span class="ml-1 mr-1">&nbsp;Of&nbsp;</span>
+      <span class="ml-1 mr-1">{{ paginator.total_pages }}</span>
     {% elsif page == 1 %}
       <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
@@ -56,9 +58,6 @@ layout: default
 {% endif %}
 <!-- pagination -->
 
-<div id="pagination" class="tui-pagination"></div>
-
-
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
 <link rel="stylesheet" type="text/css" href="/css/tui-pagination.css"/>
 <link rel="stylesheet" type="text/css" href="/css/tui-pagination.min.css"/>
@@ -66,13 +65,3 @@ layout: default
 <script src="js/tui-pagination.min.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/jquery-3.6.0.min.js "></script>
-
-
-<script type="text/javascript">
-    var pagination = new tui.Pagination(document.getElementById('pagination'), {
-        totalItems: 500,
-        itemsPerPage: 10,
-        visiblePages: 5,
-        centerAlign: true
-    });
-</script>
