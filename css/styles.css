@@ -17,3 +17,9 @@
 .pagination {
     text-align: center;
  }
+
+hr {
+    height: 6px;
+    background-color: rgb(0, 110, 255);
+    border: 0;
+}
