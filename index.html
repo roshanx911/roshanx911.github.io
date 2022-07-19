@@ -3,6 +3,10 @@ layout: default
 ---
 <div class="posts">
   {% for post in paginator.posts %}
+  {% capture url_to_use %}{{ post.url }}{% endcapture %}
+  {% if post.redirect_url %}
+     {% capture url_to_use %}{{ post.redirect_url }}{% endcapture %}
+  {% endif %}
     <div class="item">
         <a class="item-inner" href="{{ post.url }}"></a>
         <h1><div class="item-name">{{ post.title }}</div></h1>
