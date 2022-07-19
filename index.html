@@ -27,7 +27,7 @@ layout: default
   {% if paginator.previous_page %}
     <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; {{site.str_previous_page}}</a>
   {% else %}
-    <span>&laquo; {{site.str_previous_page}}</span>
+    <span>&laquo;&nbsp;Prev&nbsp;{{site.str_previous_page}}</span>
   {% endif %}
 
   {% assign page_start = paginator.page | minus: site.pagination_nr %}
@@ -52,7 +52,7 @@ layout: default
   {% if paginator.next_page %}
     <a  class="ml-1 mr-2" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{site.str_next_page}} &raquo;</a>
   {% else %}
-    <span>{{site.str_next_page}} &raquo;</span>
+    <span>{{site.str_next_page}}&nbsp;Next&nbsp;&raquo;</span>
   {% endif %}
 </div>
 {% endif %}
