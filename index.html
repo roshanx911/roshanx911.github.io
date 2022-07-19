@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+<!-- Pager -->
 <div class="posts">
   {% for post in paginator.posts %}
   {% capture url_to_use %}{{ post.url }}{% endcapture %}
@@ -11,7 +12,7 @@ layout: default
     <h1><a href="{{ url_to_use }}">{{ post.title }}</a></h1>
     <div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
     <div class="entry">
-       {{ post.excerpt | add: '...'}}<!-- span style="display: inline">…</span-->
+       {{ post.excerpt | add: '...'}}
     </div>
     <a href="{{ url_to_use }}" class="read-more">More…</a>
    </article>
@@ -38,7 +39,7 @@ layout: default
     {% elsif page > paginator.total_pages %}
       <!-- Do nothing -->
     {% elsif page == paginator.page %}
-      <span class="ml-1 mr-1">{{ page }}</span>
+      <span class="ml-1 mr-1">{{ page }}&nbsp;Of&nbsp;{{ paginator.total_pages }}</span>
     {% elsif page == 1 %}
       <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
@@ -53,7 +54,7 @@ layout: default
   {% endif %}
 </div>
 {% endif %}
-
+<!-- pagination -->
 
 <div id="pagination" class="tui-pagination"></div>
 
