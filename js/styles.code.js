@@ -10,25 +10,25 @@
 
     if(!window.StyleFix) return;
     if(hasxmldatauri()) return;
-      
+        
     // Test unescaped XML data uri
     function hasxmldatauri() {
-      var img = new Image();
-      datauri = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0 1,1" fill="#000"></svg>';
-      img.src = datauri;
-      return (img.width == 1 && img.height == 1);
+        var img = new Image();
+        datauri = 'data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0,0 1,1" fill="#000"></svg>';
+        img.src = datauri;
+        return (img.width == 1 && img.height == 1);
     }
-    
+
     StyleFix.register(function(css) {
-    
-      return css.replace(RegExp(/url\(\'data:image\/svg\+xml,(.*)\'\)/gi), function($0, svg) {
+
+        return css.replace(RegExp(/url\(\'data:image\/svg\+xml,(.*)\'\)/gi), function($0, svg) {
             return "url('data:image/svg+xml," + escape(svg) + "')";
         });
-      
+        
     });
-    
+
     })();
-    
+
     /* Radial Gradient Syntax fix */
     StyleFix.register(function(css, raw) {
         if (PrefixFree.functions.indexOf('radial-gradient') > -1) {
@@ -36,6 +36,6 @@
                 return 'radial-gradient(' + center + (shape? ', ' + shape : '');
             });
         }
-    
+
         return css;
-    });
+});
