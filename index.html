@@ -21,31 +21,7 @@ layout: default
 <!-- Pager -->
 
 <!-- pagination -->
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
 
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <span class="webjeda">{{ page }}</span>
-    {% elsif page == 1 %}
-      <a href="/">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
 
 <h3>Center the current page</h3>
 <div id="pagination" class="tui-pagination"></div>
@@ -64,19 +40,30 @@ layout: default
 <script src="js/tui-pagination.js"></script>
 <script src="js/tui-pagination.min.js"></script>
 
+
+
+
 <script type="text/javascript">
 var pagination = new tui.Pagination('pagination', {
-      totalItems: 500,
-      itemsPerPage: 10,
-      visiblePages: 5,
-      centerAlign: true
-});
-
-pagination.on('beforeMove', function(eventData) {
-  return confirm('Go to page ' + eventData.page + '?');
-});
-
-pagination.on('afterMove', function(eventData) {
-  alert('The current page is ' + eventData.page);
+  totalItems: 500,
+  itemsPerPage: 10,
+  visiblePages: 5,
+  centerAlign: true,
+  template: {
+      page: '<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="tui-page-btn">{{page}}p</a>',
+      currentPage: '<strong class="tui-page-btn tui-is-selected">{{page}}p</strong>',
+      moveButton:
+          '<a href="#" class="tui-page-btn tui-{{type}} custom-class-{{type}}">' +
+              '<span class="tui-ico-{{type}}">{{type}}</span>' +
+          '</a>',
+      disabledMoveButton:
+          '<span class="tui-page-btn tui-is-disabled tui-{{type}} custom-class-{{type}}">' +
+              '<span class="tui-ico-{{type}}">{{type}}</span>' +
+          '</span>',
+      moreButton:
+          '<a href="#" class="tui-page-btn tui-{{type}}-is-ellip custom-class-{{type}}">' +
+              '<span class="tui-ico-ellip">...</span>' +
+          '</a>'
+  }
 });
 </script>
