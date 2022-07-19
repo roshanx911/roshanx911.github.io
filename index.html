@@ -50,7 +50,7 @@ var pagination = new tui.Pagination('pagination', {
   visiblePages: 5,
   centerAlign: true,
   template: {
-      page: '<a href="{{ paginator.previous_page_path | prepend: site.baseurl }}" class="tui-page-btn">{{page}}p</a>',
+      page: '<a href="#" class="tui-page-btn">{{page}}p</a>',
       currentPage: '<strong class="tui-page-btn tui-is-selected">{{page}}p</strong>',
       moveButton:
           '<a href="#" class="tui-page-btn tui-{{type}} custom-class-{{type}}">' +
