@@ -49,14 +49,8 @@ plugins:
   - jemoji
 
 excerpt_separator: <!--more-->
-paginate: 3
+paginate: 1
 paginate_path: "/page:num/"
-
-# paginate: 5
-# paginate_path: "/blog/page:num/"
-
-# paginate: 5
-# paginate_path: "/page:num/"
 
 # Exclude from processing.
 # The following items will not be processed, by default.
