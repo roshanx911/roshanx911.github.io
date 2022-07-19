@@ -26,7 +26,7 @@ layout: default
 {% if paginator.total_pages > 1 %}
 <div class="pagination">
   {% if paginator.previous_page %}
-    <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; {{site.str_previous_page}}</a>
+    <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo;&nbsp;Prev&nbsp;{{site.str_previous_page}}</a>
   {% else %}
     <span>&laquo;&nbsp;Prev&nbsp;{{site.str_previous_page}}</span>
   {% endif %}
@@ -51,7 +51,7 @@ layout: default
   {% endfor %}
 
   {% if paginator.next_page %}
-    <a  class="ml-1 mr-2" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{site.str_next_page}} &raquo;</a>
+    <a  class="ml-1 mr-2" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{site.str_next_page}}&nbsp;Next&nbsp;&raquo;</a>
   {% else %}
     <span>{{site.str_next_page}}&nbsp;Next&nbsp;&raquo;</span>
   {% endif %}
