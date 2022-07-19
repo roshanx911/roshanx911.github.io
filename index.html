@@ -7,15 +7,14 @@ layout: default
   {% if post.redirect_url %}
      {% capture url_to_use %}{{ post.redirect_url }}{% endcapture %}
   {% endif %}
-    <div class="item">
+  <article class="post">
         <a class="item-inner" href="{{ post.url }}"></a>
-        <h1><div class="item-inner">{{ post.title }}</div></h1>
-        <div class="date">{{ post.date | date: "%W %D %M %Y" }}</div>
+        <div class="date">{{ post.date | date: "%D %e, %Y" }}</div>
         <div class="entry">
           {{ post.excerpt | add: '...'}}
         </div>
         <a href="{{ post.url }}" class="read-more">Read-More…</a>
-    </div>
+  </article>
   {% endfor %}
 </div>
 
