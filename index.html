@@ -9,7 +9,7 @@ layout: default
   {% endif %}
   <article class="post">
     <h1><a href="{{ url_to_use }}">{{ post.title }}</a></h1>
-    <div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
+    <div class="date">{{ post.date | date: "%B %D, %Y" }}</div>
     <div class="entry">
        {{ post.excerpt | add: '...'}}<!-- span style="display: inline">…</span-->
     </div>
