@@ -47,15 +47,36 @@ layout: default
 </div>
 {% endif %}
 
-
+<h3>Center the current page</h3>
+<div id="pagination" class="tui-pagination"></div>
   
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
 <script src="js/jquery-3.6.0.min.js "></script>
+
 <script src="js/popper.min.js"></script>
+
 <script src="js/pagination.js"></script>
 <script src="js/pagination.min.js"></script>
+
 
 <link rel="stylesheet" type="text/css" href="/css/tui-pagination.css"/>
 <link rel="stylesheet" type="text/css" href="/css/tui-pagination.min.css"/>
 <script src="js/tui-pagination.js"></script>
 <script src="js/tui-pagination.min.js"></script>
+
+<script type="text/javascript">
+var pagination = new tui.Pagination('pagination', {
+      totalItems: 500,
+      itemsPerPage: 10,
+      visiblePages: 5,
+      centerAlign: true
+});
+
+pagination.on('beforeMove', function(eventData) {
+  return confirm('Go to page ' + eventData.page + '?');
+});
+
+pagination.on('afterMove', function(eventData) {
+  alert('The current page is ' + eventData.page);
+});
+</script>
