@@ -55,7 +55,7 @@ layout: default
 {% endif %}
 
 
-<div id="pagination1" class="tui-pagination"></div>
+<div id="pagination" class="tui-pagination"></div>
 
 
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
@@ -74,23 +74,10 @@ layout: default
 
 
 <script type="text/javascript">
-var pagination1 = new tui.Pagination('pagination', {
-  totalItems: 500,
-  template: {
-      page: '<a href="#" class="tui-page-btn">{{page}}p</a>',
-      currentPage: '<strong class="tui-page-btn tui-is-selected">{{page}}p</strong>',
-      moveButton:
-          '<a href="#" class="tui-page-btn tui-{{type}} custom-class-{{type}}">' +
-              '<span class="tui-ico-{{type}}">{{type}}</span>' +
-          '</a>',
-      disabledMoveButton:
-          '<span class="tui-page-btn tui-is-disabled tui-{{type}} custom-class-{{type}}">' +
-              '<span class="tui-ico-{{type}}">{{type}}</span>' +
-          '</span>',
-      moreButton:
-          '<a href="#" class="tui-page-btn tui-{{type}}-is-ellip custom-class-{{type}}">' +
-              '<span class="tui-ico-ellip">...</span>' +
-          '</a>'
-  }
-});
+    var pagination = new tui.Pagination(document.getElementById('pagination2'), {
+        totalItems: 500,
+        itemsPerPage: 10,
+        visiblePages: 5,
+        centerAlign: true
+    });
 </script>
