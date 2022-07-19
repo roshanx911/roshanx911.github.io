@@ -39,6 +39,7 @@ layout: default
       <!-- Do nothing -->
     {% elsif page == paginator.page %}
       <span class="ml-1 mr-1">{{ page }}</span>
+      <span class="ml-1 mr-1">{{ page }}</span>
     {% elsif page == 1 %}
       <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
     {% else %}
@@ -53,6 +54,7 @@ layout: default
   {% endif %}
 </div>
 {% endif %}
+
 
 
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
