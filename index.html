@@ -1,6 +1,19 @@
 ---
 layout: default
 ---
+<div class="posts">
+  {% for post in paginator.posts %}
+    <div class="item">
+        <a class="item-inner" href="{{ post.url }}"></a>
+        <h1><div class="item-name">{{ post.title }}</div></h1>
+        <div class="date">{{ post.date | date: "%D %M %Y" }}</div>
+        <div class="entry">
+          {{ post.excerpt | add: '...'}}
+        </div>
+        <a href="{{ post.url }}" class="read-more">Read-More…</a>
+    </div>
+	{% endfor %}
+</div>
 
 <!-- Pager -->
 
