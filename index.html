@@ -39,7 +39,7 @@ layout: default
     {% elsif page > paginator.total_pages %}
       <!-- Do nothing -->
     {% elsif page == paginator.page %}
-      <span class="ml-1 mr-1">{{ page }}&nbsp;Of&nbsp;{{ paginator.total_pages }}</span>
+      <span class="ml-1 mr-1">{{ page }}</span>
       <span class="ml-1 mr-1">&nbsp;Of&nbsp;</span>
       <span class="ml-1 mr-1">{{ paginator.total_pages }}</span>
     {% elsif page == 1 %}
