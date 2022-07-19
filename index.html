@@ -21,18 +21,8 @@ layout: default
 <!-- Pager -->
 
 <!-- pagination -->
-<div class="be-wrapper">
-  <div class="container">
-      <h1>Pagination Plugin</h1>
-      <p>Anything you need. It's here!</p>
-      <div class="demo">
-          <div id="page">
-              <ul class="pagination"></ul>
-          </div>
-          <label id="info">Page information will be displayed here.</label>
-      </div>
-  </div>
-</div>
+<h3>Center the current page</h3>
+<div id="pagination2" class="tui-pagination"></div>
 
   
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
@@ -41,16 +31,18 @@ layout: default
 <script src="js/pagination.js"></script>
 <script src="js/pagination.min.js"></script>
 
+<link rel="stylesheet" type="text/css" href="/css/tui-pagination.css"/>
+<link rel="stylesheet" type="text/css" href="/css/tui-pagination.min.css"/>
+<script src="js/tui-pagination.js"></script>
+<script src="js/tui-pagination.min.js"></script>
+
+
+
 <script type="text/javascript">
-  $(function() {
-    console.log( "ready!" );
-    $('#page').Pagination({
-              size: 87,
-              pageShow: 5,
-              page: 1,
-              limit: 10,
-        }, function(obj){
-                $('#info').html('Current page: ' + obj.page);
-        });
-  });
+    var pagination2 = new tui.Pagination(document.getElementById('pagination2'), {
+        totalItems: 500,
+        itemsPerPage: 10,
+        visiblePages: 5,
+        centerAlign: true
+    });
 </script>
