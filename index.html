@@ -10,7 +10,7 @@ layout: default
     <div class="item">
         <a class="item-inner" href="{{ post.url }}"></a>
         <h1><div class="item-inner">{{ post.title }}</div></h1>
-        <div class="date">{{ post.date | date: "%D %M %Y" }}</div>
+        <div class="date">{{ post.date | date: "%W %D %M %Y" }}</div>
         <div class="entry">
           {{ post.excerpt | add: '...'}}
         </div>
