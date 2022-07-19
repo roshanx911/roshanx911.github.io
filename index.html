@@ -47,17 +47,6 @@ layout: default
 </div>
 {% endif %}
 
-
-$(document).ready(function(){
-  $('#page').Pagination({ // id to initial draw and use pagination
-              size: 87, // size of list input
-              pageShow: 5, // 5 page-item per page
-              page: 1, // current page (default)
-              limit: 10, // current limit show perpage (default)
-        }, function(obj){ // callback function, you can use it to re-draw table or something
-                $('#info').html('Current page: ' + obj.page);
-        });
-  });
   
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
 <script src="js/jquery-3.6.0.min.js "></script>
