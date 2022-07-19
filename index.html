@@ -21,11 +21,38 @@ layout: default
 <!-- Pager -->
 
 <!-- pagination -->
+{% if paginator.total_pages > 1 %}
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; {{site.str_previous_page}}</a>
+  {% else %}
+    <span>&laquo; {{site.str_previous_page}}</span>
+  {% endif %}
+
+  {% assign page_start = paginator.page | minus: site.pagination_nr %}
+  {% assign page_end = paginator.page | plus: site.pagination_nr %}
+
+  {% for page in (page_start..page_end) %}
+    {% if page < 1 %}
+      <!-- do freaking nothing -->
+    {% elsif page == paginator.page %}
+      <span class="ml-1 mr-1">{{ page }}</span>
+    {% elsif page == 1 %}
+      <a  class="ml-1 mr-2" href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+    {% else %}
+      <a  class="ml-1 mr-2" href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+    {% endif %}
+  {% endfor %}
+
+  {% if paginator.next_page %}
+    <a  class="ml-1 mr-2" href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">{{site.str_next_page}} &raquo;</a>
+  {% else %}
+    <span>{{site.str_next_page}} &raquo;</span>
+  {% endif %}
+</div>
+{% endif %}
 
 
-<h3>Center the current page</h3>
-<div id="pagination" class="tui-pagination"></div>
-  
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
 <script src="js/jquery-3.6.0.min.js "></script>
 
@@ -39,13 +66,3 @@ layout: default
 <link rel="stylesheet" type="text/css" href="/css/tui-pagination.min.css"/>
 <script src="js/tui-pagination.js"></script>
 <script src="js/tui-pagination.min.js"></script>
-
-
-<script type="text/javascript">
-var pagination = new tui.Pagination(document.getElementById('pagination'), {
-  totalItems: 500,
-  itemsPerPage: 10,
-  visiblePages: 5,
-  centerAlign: true
-});
-</script>
