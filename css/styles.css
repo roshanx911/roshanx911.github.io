@@ -23,3 +23,15 @@ hr {
     background-color: rgb(0, 110, 255);
     border: 0;
 }
+
+.fade {
+    border-width: 0 0 1px;
+    $color: skyblue;
+    color: $color;
+    border-image: linear-gradient(
+      90deg,
+      rgba($color, 0),
+      rgba($color, 1) 50%,
+      rgba($color, 0) 100%) 0 0 100%;
+    border-style: solid;
+  }
