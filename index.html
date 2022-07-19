@@ -22,7 +22,7 @@ layout: default
 
 <!-- pagination -->
 {% if paginator.total_pages > 1 %}
-<div id="pagination2" class="tui-pagination">
+<div id="pagination2" class="pagination">
   {% if paginator.previous_page %}
     <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a>
   {% else %}
