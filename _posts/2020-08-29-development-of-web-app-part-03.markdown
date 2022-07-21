@@ -5,7 +5,6 @@ date: 2020-08-29 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-CHANGE 00
 This article base on analysis of Software Life Cycle (SLC) & Software Process Models (SPM) and why we need to follow-through these in development process. Part-03 focus on Linear Sequential Model. <!--more-->
 
 #### The Linear Sequential Model
