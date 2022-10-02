@@ -5,7 +5,6 @@ date: 2020-07-28 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-AAA
 Following code examine on how to integrate and customize advance form validation to a web application, instead of using vanilla bootstrap form validation. <!--more-->
 
 #### Vanilla Bootstrap Form Validation:
