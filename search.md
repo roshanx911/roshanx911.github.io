@@ -20,6 +20,6 @@ icon: "fa-search"
 SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
-  json: '/search2.json'
+  json: '/search3.json'
 })
 </script>
