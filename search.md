@@ -14,7 +14,7 @@ icon: ""
 <ul id="results-container"></ul>
 </div>
 
-<!-- Script pointing to Jekyll Instant Search js -->
+<!-- Script pointing to Jekyll Instant Search  -->
 <script src="/search.js" type="text/javascript"></script>
 
 <!-- Configuration -->
