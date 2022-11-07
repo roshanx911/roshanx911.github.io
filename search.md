@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: search
 title: Search
 permalink: /search/
 subtitle: "Enter keywords..."
@@ -23,6 +23,7 @@ SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json'
+  searchResultTemplate:
 })
 </script>
 
