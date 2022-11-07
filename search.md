@@ -38,7 +38,7 @@ icon: ""
 .search-bar {
     display: block;
     width: 100%;
-    height: 46px;
+    height: 41px;
     padding: 6px 12px;
     font-size: 21px;
     line-height: 1.43;
