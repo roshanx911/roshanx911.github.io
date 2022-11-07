@@ -4,7 +4,7 @@ title: Search
 permalink: /search/
 subtitle: "Enter keywords..."
 feature-img: ""
-icon: "fa-search"
+icon: ""
 ---
 
 <!-- Html Elements for Search -->
