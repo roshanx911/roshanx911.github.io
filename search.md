@@ -27,31 +27,32 @@ SimpleJekyllSearch({
 </script>
 
 <style>
-  .search-bar {  
+.search-bar {
     display: block;
     width: 100%;
     height: 46px;
     padding: 6px 12px;
-    font-size: 21px;
+    font-size: 18px;
     line-height: 1.43;
-    border: 1px solid #c4c4c4;
+    color: var(--text);
+    background: var(--background) none;
+    border: 1px solid #ccc;
     border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    box-shadow: 0px 0px 8px #d9d9d9;
-    -moz-box-shadow: 0px 0px 8px #d9d9d9;
-    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
-}  
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
+    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
+    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  
     &:focus,
-    &:hover {      
-      outline: none;
-      border: 1px solid #7bc1f7;
-      box-shadow: 0px 0px 8px #7bc1f7;
-      -moz-box-shadow: 0px 0px 8px #7bc1f7;
-      -webkit-box-shadow: 0px 0px 8px #7bc1f7;
+    &:hover {
+      border-color: var(--link);
+      outline: 0;
+      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--link);
+      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--link);
+      filter: opacity(0.6);
     }
-
-
+  
     &::-moz-placeholder {
       color: var(--meta);
       opacity: 0.7;
