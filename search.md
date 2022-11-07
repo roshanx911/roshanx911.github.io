@@ -16,10 +16,6 @@ icon: ""
 <!-- Script pointing to search.js -->
 <script src="/search.js" type="text/javascript"></script>
 
-<!-- Stylesheet pointing to search.scss -->
-<link rel="stylesheet/scss" type="text/css" href="/search.scss"/>
-
-
 <!-- Theme Mode-->
 <script>
     const isAutoTheme = true;
