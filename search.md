@@ -26,22 +26,27 @@ SimpleJekyllSearch({
 </script>
 
 <style>
-  .search-bar {
+  .search-bar {  
     display: block;
+    margin-left: -100px;
+    margin-top: -10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid #c4c4c4;
     width: 100%;
     height: 46px;
-    padding: 6px 12px;
     font-size: 21px;
     line-height: 1.43;
     color: var(--text);
     background: var(--background) none;
-    border: 1px solid #ccc;
+    padding: 6px 12px;
     border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
-    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
   
     &:focus,
     &:hover {      
