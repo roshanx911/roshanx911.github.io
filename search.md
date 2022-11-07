@@ -31,7 +31,7 @@ SimpleJekyllSearch({
     width: 100%;
     height: 46px;
     padding: 6px 12px;
-    font-size: 18px;
+    font-size: 21px;
     line-height: 1.43;
     color: var(--text);
     background: var(--background) none;
