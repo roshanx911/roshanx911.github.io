@@ -15,7 +15,7 @@ icon: "fa-search"
 
 <!-- Script pointing to search-script.js -->
 <script src="js/search-script.js" type="text/javascript"></script>
-
+<script src="/search.js" type="text/javascript"></script>
 <!-- Configuration -->
 <script>
 SimpleJekyllSearch({
