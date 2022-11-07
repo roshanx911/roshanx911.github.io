@@ -26,7 +26,7 @@ SimpleJekyllSearch({
 </script>
 
 <style>
-  .search-bar {
+  .search-container {
     display: block;
     width: 100%;
     height: 46px;
