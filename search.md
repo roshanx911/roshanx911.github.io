@@ -44,14 +44,15 @@ SimpleJekyllSearch({
     transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
   
     &:focus,
-    &:hover {
-      border-color: var(--link);
-      outline: 0;
-      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--link);
-      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--link);
-      filter: opacity(0.6);
+    &:hover {      
+      outline: none;
+      border: 1px solid #7bc1f7;
+      box-shadow: 0px 0px 8px #7bc1f7;
+      -moz-box-shadow: 0px 0px 8px #7bc1f7;
+      -webkit-box-shadow: 0px 0px 8px #7bc1f7;
     }
-  
+
+
     &::-moz-placeholder {
       color: var(--meta);
       opacity: 0.7;
@@ -85,3 +86,32 @@ SimpleJekyllSearch({
     }
   }
 </style>
+
+
+input {
+    margin-left: -100px;
+    margin-top: -10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid #c4c4c4;
+    width: 200px;
+    height: 20px;
+    font-size: 16px;
+    padding: 4px;
+    border-radius: 4px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
+}
+
+input:focus { 
+    outline: none;
+    border: 1px solid #7bc1f7;
+    box-shadow: 0px 0px 8px #7bc1f7;
+    -moz-box-shadow: 0px 0px 8px #7bc1f7;
+    -webkit-box-shadow: 0px 0px 8px #7bc1f7;
+
+}
