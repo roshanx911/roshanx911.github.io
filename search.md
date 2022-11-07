@@ -9,12 +9,12 @@ icon: "fa-search"
 
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="search...">
+<input type="text" id="search-input" placeholder="Enter keywords...">
 <ul id="results-container"></ul>
 </div>
 
 <!-- Script pointing to search-script.js -->
-<script src="/path/to/search-script.js" type="text/javascript"></script>
+<script src="js/search-script.js" type="text/javascript"></script>
 
 <!-- Configuration -->
 <script>
