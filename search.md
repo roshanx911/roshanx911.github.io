@@ -16,6 +16,15 @@ icon: ""
 <!-- Script pointing to search.js -->
 <script src="/search.js" type="text/javascript"></script>
 
+<!-- Stylesheet pointing to search.scss -->
+<link rel="stylesheet/scss" type="text/css" href="/search.scss"/>
+
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap-iso.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap-iso.min.css"/>
+
 <!-- Theme Mode-->
 <script>
     const isAutoTheme = true;
@@ -39,6 +48,8 @@ icon: ""
 <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
 
 
+<link rel="stylesheet" type="text/css" href="/bootstrap.min.css"/>
+<script src="/bootstrap.min.js"></script>
 
 <!-- Configuration -->
 <script>
