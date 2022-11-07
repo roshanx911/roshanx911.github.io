@@ -13,8 +13,12 @@ icon: "fa-search"
 <ul id="results-container"></ul>
 </div>
 
-<!-- Script pointing to search-script.js -->
+<!-- Script pointing to search.js -->
 <script src="/search.js" type="text/javascript"></script>
+
+<!-- Stylesheet pointing to search.scss -->
+<link rel="stylesheet/scss" type="text/css" href="search.scss"/>
+
 <!-- Configuration -->
 <script>
 SimpleJekyllSearch({
