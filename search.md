@@ -86,32 +86,3 @@ SimpleJekyllSearch({
     }
   }
 </style>
-
-
-input {
-    margin-left: -100px;
-    margin-top: -10px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    border: 1px solid #c4c4c4;
-    width: 200px;
-    height: 20px;
-    font-size: 16px;
-    padding: 4px;
-    border-radius: 4px;
-    -moz-border-radius: 4px;
-    -webkit-border-radius: 4px;
-    box-shadow: 0px 0px 8px #d9d9d9;
-    -moz-box-shadow: 0px 0px 8px #d9d9d9;
-    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
-}
-
-input:focus { 
-    outline: none;
-    border: 1px solid #7bc1f7;
-    box-shadow: 0px 0px 8px #7bc1f7;
-    -moz-box-shadow: 0px 0px 8px #7bc1f7;
-    -webkit-box-shadow: 0px 0px 8px #7bc1f7;
-
-}
