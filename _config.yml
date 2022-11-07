@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Roshan Perera | Software Developer
+title: Roshan Perera - Software Developer
 author:
   name: Roshan Perera
   email: roshanx911@gmail.com
