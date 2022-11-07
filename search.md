@@ -11,7 +11,7 @@ icon: ""
 <div id="search-container">
 <input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
 <br />
-<ul id="results-container" class="search-title"><br /><hr /></ul>
+<ul id="results-container" class="search-title"></ul>
 </div>
 
 <!-- Script pointing to Jekyll Instant Search js -->
