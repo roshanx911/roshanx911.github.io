@@ -8,8 +8,8 @@ icon: ""
 ---
 
 <!-- Html Elements for Search -->
-<div id="search-container" class="search-bar">
-<input type="text" id="search-input" placeholder="Enter keywords...">
+<div id="search-container">
+<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
 <ul id="results-container"></ul>
 </div>
 
