@@ -9,7 +9,8 @@ icon: ""
 
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus=""><br />
+<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
+<br /><br />
 <ul id="results-container" class="search-title"></ul>
 </div>
 
