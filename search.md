@@ -47,7 +47,7 @@ icon: ""
 <!-- Simple Jekyll Search 1.10.0 -->
 <script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
 
-
+<!-- Bootstrap -->
 <link rel="stylesheet" type="text/css" href="/bootstrap.min.css"/>
 <script src="/bootstrap.min.js"></script>
 
