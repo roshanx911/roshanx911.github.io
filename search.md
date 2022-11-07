@@ -22,6 +22,7 @@ icon: ""
 <!-- CSS -->
 <link rel="stylesheet" href="/assets/css/main.css">
 
+
 <!-- Theme Mode-->
 <script>
     const isAutoTheme = true;
