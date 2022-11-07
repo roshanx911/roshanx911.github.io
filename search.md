@@ -19,16 +19,35 @@ icon: ""
 <!-- Stylesheet pointing to search.scss -->
 <link rel="stylesheet/scss" type="text/css" href="/search.scss"/>
 
+<!-- CSS -->
+<link rel="stylesheet" href="/assets/css/main.css">
 <link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap.css"/>
 <link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap-iso.css"/>
 <link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap-iso.min.css"/>
 
-<script src="assets/js/main.min.js"></script>
-<script src="assets/js/vendor/katex.min.js"></script>
-<script src="assets/js/vendor/mermaid.min.js"></script>
-<script src="assets/js/vendor/auto-render.min.js"></script>
-<script src="assets/js/vendor/masonry.pkgd.min.js"></script>
-<script src="assets/js/vendor/simple-jekyll-search.min.js"></script>
+<!-- Theme Mode-->
+<script>
+    const isAutoTheme = true;
+    document.documentElement.setAttribute('data-theme', sessionStorage.getItem('theme'))
+</script>
+
+<!-- Main JS (navbar.js, katex_init.js and masonry_init.js)-->
+<script defer src="/assets/js/main.min.js"></script>
+
+<!-- KaTeX 0.15.2 -->
+<script defer src="/assets/js/vendor/katex.min.js"></script>
+<script defer src="/assets/js/vendor/auto-render.min.js" onload="renderMathInElement(document.body);"></script>
+
+<!-- Mermaid 9.1.1 -->
+<script defer src="/assets/js/vendor/mermaid.min.js" onload="mermaid.initialize({
+  startOnLoad:true,
+  theme: 'default',
+});"></script>
+
+<!-- Simple Jekyll Search 1.10.0 -->
+<script src="/assets/js/vendor/simple-jekyll-search.min.js" type="text/javascript"></script>
+
+
 
 <!-- Configuration -->
 <script>
