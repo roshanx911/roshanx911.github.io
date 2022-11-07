@@ -8,7 +8,7 @@ icon: ""
 ---
 
 <!-- Html Elements for Search -->
-<div id="search-container">
+<div id="search-container" class="search-bar">
 <input type="text" id="search-input" placeholder="Enter keywords...">
 <ul id="results-container"></ul>
 </div>
@@ -26,7 +26,7 @@ SimpleJekyllSearch({
 </script>
 
 <style>
-  .search-container {
+  .search-bar {
     display: block;
     width: 100%;
     height: 46px;
