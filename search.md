@@ -19,8 +19,7 @@ icon: ""
 <!-- Stylesheet pointing to search.scss -->
 <link rel="stylesheet/scss" type="text/css" href="/search.scss"/>
 
-<!-- CSS -->
-<link rel="stylesheet" href="/assets/css/main.css">
+
 
 
 <!-- Theme Mode-->
