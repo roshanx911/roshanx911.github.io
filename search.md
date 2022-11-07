@@ -36,28 +36,24 @@ icon: ""
 <!-- Stylesheet pointing to search -->
 <style>
 .search-bar {
-    display: block;
+    display:block;
+    margin:20px;
     width: 100%;
     height: 46px;
     padding: 6px 12px;
-    font-size: 21px;
     line-height: 1.43;
-    color: var(--text);
-    background: var(--background) none;
-    border: 1px solid #ccc;
+    font-size: 21px;
+    overflow:auto;
     border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
-    -webkit-transition: border-color ease-in-out 0.15s, -webkit-box-shadow ease-in-out 0.15s;
-    -o-transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
-  
+    color:#444;
+    text-shadow:0 0 2px #ddd;
+    padding:20px 10px 10px 0;
+
     &:focus,
     &:hover {
-      border-color: var(--link);
-      outline: 0;
-      -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--link);
-      box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075), 0 0 8px var(--link);
+      outline:none;
+      border-color:#9ecaed;
+      box-shadow:0 0 10px #9ecaed;
       filter: opacity(0.6);
     }
   
