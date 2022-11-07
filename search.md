@@ -23,6 +23,7 @@ icon: ""
         SimpleJekyllSearch({
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
+            json: '/search.json'
             json: '{{ "/search.liquid" | relative_url }}',
             searchResultTemplate: '<div class="search-title"><a href="{url}"><h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</div></div><p>{excerpt}</p></div><hr> ',
             noResultsText: '{{ site.data.language.str_no_result_found | default: "No result found" }}',
@@ -93,4 +94,11 @@ icon: ""
       text-decoration: none;
     }
   }
+
+hr {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}  
 </style>
