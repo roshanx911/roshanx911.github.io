@@ -1,5 +1,5 @@
 ---
-layout: search
+layout: page
 title: Search
 permalink: /search/
 subtitle: "What are you looking for?"
