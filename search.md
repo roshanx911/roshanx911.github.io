@@ -20,8 +20,6 @@ icon: ""
 <link rel="stylesheet/scss" type="text/css" href="/search.scss"/>
 
 
-
-
 <!-- Theme Mode-->
 <script>
     const isAutoTheme = true;
