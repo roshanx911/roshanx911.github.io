@@ -6,6 +6,12 @@ subtitle: "Enter keywords..."
 feature-img: ""
 icon: ""
 ---
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
 <!-- Search input field -->
   <div class="main-search form-group mb-0 border-bottom">
   <div class="input-group">
