@@ -21,9 +21,6 @@ icon: ""
 
 <!-- CSS -->
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap.css"/>
-<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap-iso.css"/>
-<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap-iso.min.css"/>
 
 <!-- Theme Mode-->
 <script>
