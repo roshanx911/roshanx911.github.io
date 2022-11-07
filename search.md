@@ -18,7 +18,7 @@ icon: "fa-search"
 
 <!-- Configuration -->
 <script>
-var sjs = SimpleJekyllSearch({
+SimpleJekyllSearch({
   searchInput: document.getElementById('search-input'),
   resultsContainer: document.getElementById('results-container'),
   json: '/search.json'
