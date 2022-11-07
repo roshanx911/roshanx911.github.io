@@ -8,25 +8,30 @@ icon: ""
 ---
 
 <!-- Html Elements for Search -->
-<div id="search-container">
-<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
+<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus>
 <br />
-<ul id="results-container" class="search-title"></ul>
-</div>
+<ul id="results-container"></ul>
 
 <!-- Script pointing to Jekyll Instant Search js -->
 <script src="/search.js" type="text/javascript"></script>
 
 <!-- Configuration -->
-<script>
-SimpleJekyllSearch({
-  searchInput: document.getElementById('search-input'),
-  resultsContainer: document.getElementById('results-container'),
-  json: '/search.json'
-  searchResultTemplate:
-})
-</script>
+<section>
+    <script type="text/javascript">
+        SimpleJekyllSearch({
+            searchInput: document.getElementById('search-input'),
+            resultsContainer: document.getElementById('results-container'),
+            json: '{{ "/search.liquid" | relative_url }}',
+            searchResultTemplate: '<div class="search-title"><a href="{url}"><h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</div></div><p>{excerpt}</p></div><hr> ',
+            noResultsText: '{{ site.data.language.str_no_result_found | default: "No result found" }}',
+            limit: 10,
+            fuzzy: false,
+            exclude: []
+        })
+    </script>
+</section>
 
+<!-- Stylesheet pointing to search -->
 <style>
 .search-bar {
     display: block;
