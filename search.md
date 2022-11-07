@@ -36,25 +36,30 @@ icon: ""
 <!-- Stylesheet pointing to search -->
 <style>
 .search-bar {
-    display:block;
-    margin:20px;
+    margin-left: -100px;
+    margin-top: -10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    border: 1px solid #c4c4c4;
     width: 100%;
     height: 46px;
-    padding: 6px 12px;
-    line-height: 1.43;
     font-size: 21px;
-    overflow:auto;
+    padding: 4px;
     border-radius: 4px;
-    color:#444;
-    text-shadow:0 0 2px #ddd;
-    padding:20px 10px 10px 0;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    box-shadow: 0px 0px 8px #d9d9d9;
+    -moz-box-shadow: 0px 0px 8px #d9d9d9;
+    -webkit-box-shadow: 0px 0px 8px #d9d9d9;
 
     &:focus,
     &:hover {
-      outline:none;
-      border-color:#9ecaed;
-      box-shadow:0 0 10px #9ecaed;
-      filter: opacity(0.6);
+      outline: none;
+      border: 1px solid #7bc1f7;
+      box-shadow: 0px 0px 8px #7bc1f7;
+      -moz-box-shadow: 0px 0px 8px #7bc1f7;
+      -webkit-box-shadow: 0px 0px 8px #7bc1f7;
     }
   
     &::-moz-placeholder {
