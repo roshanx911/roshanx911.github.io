@@ -28,26 +28,21 @@ SimpleJekyllSearch({
 <style>
   .search-bar {  
     display: block;
-    margin-left: -100px;
-    margin-top: -10px;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    border: 1px solid #c4c4c4;
     width: 100%;
     height: 46px;
+    padding: 6px 12px;
     font-size: 21px;
     line-height: 1.43;
+    border: 1px solid #c4c4c4;
     color: var(--text);
     background: var(--background) none;
-    padding: 6px 12px;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
     box-shadow: 0px 0px 8px #d9d9d9;
     -moz-box-shadow: 0px 0px 8px #d9d9d9;
     -webkit-box-shadow: 0px 0px 8px #d9d9d9;
-  
+}  
     &:focus,
     &:hover {      
       outline: none;
