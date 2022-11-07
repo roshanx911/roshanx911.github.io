@@ -34,8 +34,6 @@ SimpleJekyllSearch({
     font-size: 21px;
     line-height: 1.43;
     border: 1px solid #c4c4c4;
-    color: var(--text);
-    background: var(--background) none;
     border-radius: 4px;
     -moz-border-radius: 4px;
     -webkit-border-radius: 4px;
