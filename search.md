@@ -19,8 +19,16 @@ icon: ""
 <!-- Stylesheet pointing to search.scss -->
 <link rel="stylesheet/scss" type="text/css" href="/search.scss"/>
 
-<link rel="stylesheet" type="text/css" href="/bootstrap.min.css"/>
-<script src="/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap-iso.css"/>
+<link rel="stylesheet" type="text/css" href="/assets/css/vendor/bootstrap-iso.min.css"/>
+
+<script src="assets/js/main.min.js"></script>
+<script src="assets/js/vendor/katex.min.js"></script>
+<script src="assets/js/vendor/mermaid.min.js"></script>
+<script src="assets/js/vendor/auto-render.min.js"></script>
+<script src="assets/js/vendor/masonry.pkgd.min.js"></script>
+<script src="assets/js/vendor/simple-jekyll-search.min.js"></script>
 
 <!-- Configuration -->
 <script>
