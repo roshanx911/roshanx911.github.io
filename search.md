@@ -19,7 +19,6 @@ icon: ""
 <!-- Stylesheet pointing to search.scss -->
 <link rel="stylesheet/scss" type="text/css" href="/search.scss"/>
 
-
 <link rel="stylesheet" type="text/css" href="/bootstrap.min.css"/>
 <script src="/bootstrap.min.js"></script>
 
