@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Home
+title: [Home]
 permalink: /index.html
 ---
