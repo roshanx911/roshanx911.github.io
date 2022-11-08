@@ -3,7 +3,7 @@ layout: page
 title: Search
 permalink: /search/
 subtitle: "What are you looking for?"
-feature-img: "[Imgur](https://i.imgur.com/mPYFV4v.jpg)"
+feature-img: "https://i.imgur.com/mPYFV4v.jpg"
 icon: "fa-search"
 ---
 
