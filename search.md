@@ -3,8 +3,8 @@ layout: page
 title: Search
 permalink: /search/
 subtitle: "What are you looking for?"
-feature-img: "https://i.imgur.com/mPYFV4v.jpg"
-icon: "fa-search"
+feature-img: ""
+icon: ""
 ---
 
 <!-- Html Elements for Search -->
