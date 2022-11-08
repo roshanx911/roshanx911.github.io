@@ -26,7 +26,7 @@ icon: ""
             resultsContainer: document.getElementById('results-container'),
             json: '{{ "/search.liquid" | relative_url }}',
             searchResultTemplate: '<div class="search-title"><a href="{url}"><h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</div></div><p>{excerpt}</p></div><hr>',
-            noResultsText: '{{ site.data.language.str_no_result_found | default: <h3>"No result found"</h3> }}',
+            noResultsText: '{{ site.data.language.str_no_result_found | default: <h3>No result found</h3> }}',
             limit: 10,
             fuzzy: false,
             exclude: []
