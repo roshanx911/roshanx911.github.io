@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Development Aspect of a Web Application (SDLC), Part 05"
-date: 2020-08-31 07:00:00 -0700
+date: 2022-08-31 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---

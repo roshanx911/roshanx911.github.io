@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Customizable Advance Form Validation"
-date: 2020-07-28 07:00:00 -0700
+date: 2022-11-07 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
@@ -55,7 +55,7 @@ OR
 
 - Include jQuery link from a [jQuery CDN][jQuery-CDN]
 {% highlight html %}
-<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.1.min.js"></script>
 {% endhighlight %}
 
 > Note: It’s always a proper tendency to include jQuery or JavaScript in the end of the body-tag just before closing.
@@ -149,7 +149,7 @@ OR
 > ### Conclusion:
 > This validation-engine comes with endless number of customizations to form-validation. To commit accurate & specific data into a database is very crucial, furthermore this validation-engine is highly efficient & effective. For more information read the [official documentation][official-documentation] on website.
 
-[jQuery-Library]: https://code.jquery.com/jquery-3.5.1.min.js
+[jQuery-Library]: https://code.jquery.com/jquery-3.6.1.min.js
 [jQuery-CDN]: https://code.jquery.com/
-[Download]: https://github.com/posabsolute/jQuery-Validation-Engine/archive/v3.0.0.zip
+[Download]: https://github.com/posabsolute/jQuery-Validation-Engine/archive/v3.1.0.zip
 [official-documentation]: http://www.position-absolute.com/articles/jquery-form-validator-because-form-validation-is-a-mess/

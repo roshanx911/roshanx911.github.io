@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-1 (Admin-Panel)"
-date: 2020-08-14 01:00:00 -0700
+date: 2022-10-14 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
