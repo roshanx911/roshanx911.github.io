@@ -102,3 +102,6 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }  
 </style>
+
+<script src="/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/styles.css"/>
