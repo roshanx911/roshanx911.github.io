@@ -2,13 +2,14 @@
     text-align: center;
  }
 
-.pagination a, .pagination span {
-    padding: 7px 18px;
-    border: 1px solid #eee;
-    margin-left: -2px;
-    margin-right: -2px;
-    background-color: #ffffff;
-    display: inline-block;
+ .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+ .pagination a:hover:not(.active) {
+    background-color: #ddd;
+
 }
 
 hr {
