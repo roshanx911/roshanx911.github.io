@@ -1,5 +1,5 @@
 ---
 layout: default
-title: Home
-permalink: /:index.html
+title: 'Home'
+permalink: /index.html
 ---
