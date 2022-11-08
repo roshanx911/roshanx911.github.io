@@ -4,7 +4,7 @@ title: Search
 permalink: /search/
 subtitle: "What are you looking for?"
 feature-img: "[Imgur](https://i.imgur.com/mPYFV4v.jpg)"
-icon: ""
+icon: "fa-search"
 ---
 
 <!-- Html Elements for Search -->
