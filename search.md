@@ -15,6 +15,7 @@ icon: ""
 </div>
 
 <!-- Script pointing to Jekyll Instant Search  -->
+<script src="/js/jquery.min.js"></script>
 <script src="/search.js" type="text/javascript"></script>
 
 <!-- Configuration -->
