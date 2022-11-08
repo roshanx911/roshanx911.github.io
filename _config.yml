@@ -49,7 +49,7 @@ plugins:
   - jemoji
 
 excerpt_separator: <!--more-->
-paginate: 4
+paginate: 1
 paginate_path: "/page:num/"
 
 # Exclude from processing.
