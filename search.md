@@ -2,8 +2,8 @@
 layout: page
 title: Search
 permalink: /search/
-subtitle: "Enter keywords..."
-feature-img: ""
+subtitle: "What are you looking for?"
+feature-img: "[Imgur](https://i.imgur.com/mPYFV4v.jpg)"
 icon: ""
 ---
 
