@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Search
+title: »Search
 permalink: /search/
 subtitle: "Enter keywords..."
 feature-img: ""
