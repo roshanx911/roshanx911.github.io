@@ -72,7 +72,7 @@ layout: default
     {% if page == paginator.page %}
       <em>{{ page }}</em>
     {% elsif page == 1 %}
-      <a href="/">{{ page }}</a>
+      <a href="">{{ page }}</a>
     {% else %}
       <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
     {% endif %}
@@ -87,4 +87,4 @@ layout: default
 {% endif %}
 <!-- pagination -->
 
-<link rel="stylesheet" type="text/css" href="/css/stylesx.css"/>
+<link rel="stylesheet" type="text/css" href="/css/styles.css"/>
