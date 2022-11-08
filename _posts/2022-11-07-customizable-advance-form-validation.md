@@ -48,7 +48,7 @@ This validation-engine base on jQuery (A JavaScript Library), first of all you n
 
 - Download the [jQuery Library][jQuery-Library] & add it to local development location
 {% highlight html %}
-<script src="js/jquery-3.5.1.min.js "></script>
+<script src="js/jquery-3.6.1.min.js"></script>
 {% endhighlight %}
 
 OR
