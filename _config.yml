@@ -28,6 +28,10 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://roshanx911.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: UA-175351528-1
 show_excerpts: true
+header_pages:
+  - home.md
+  - about.md
+  - search.md
 minima:
   skin: classic
   social_links:
