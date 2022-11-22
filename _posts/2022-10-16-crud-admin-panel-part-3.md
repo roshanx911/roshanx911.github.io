@@ -241,9 +241,9 @@ Following code examine on how to create an admin-panel & CRUD (Create, Read, Upd
 > [CRUD Admin-Panel with Bootstrap, PHP & MySQL Part-6 (Database-Implementation)][Part-6]
 > 
 
-[Part-1]: https://roshanx911.github.io/blog/2020/08/14/crud-admin-panel-part-1.html
-[Part-2]: https://roshanx911.github.io/blog/2020/08/15/crud-admin-panel-part-2.html
-[Part-3]: https://roshanx911.github.io/blog/2020/08/16/crud-admin-panel-part-3.html
-[Part-4]: https://roshanx911.github.io/blog/2020/08/17/crud-admin-panel-part-4.html
-[Part-5]: https://roshanx911.github.io/blog/2020/08/18/crud-admin-panel-part-5.html
-[Part-6]: https://roshanx911.github.io/blog/2020/08/19/crud-admin-panel-part-6.html
+[Part-1]: https://roshanx911.github.io/blog/2022/10/14/crud-admin-panel-part-1.html
+[Part-2]: https://roshanx911.github.io/blog/2022/10/15/crud-admin-panel-part-2.html
+[Part-3]: https://roshanx911.github.io/blog/2022/10/16/crud-admin-panel-part-3.html
+[Part-4]: https://roshanx911.github.io/blog/2022/10/17/crud-admin-panel-part-4.html
+[Part-5]: https://roshanx911.github.io/blog/2022/10/18/crud-admin-panel-part-5.html
+[Part-6]: https://roshanx911.github.io/blog/2022/10/19/crud-admin-panel-part-6.html
