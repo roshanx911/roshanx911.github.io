@@ -335,4 +335,3 @@ COMMIT;
 ```
 
 > Done! Now you have created a Bootstrap PopUp/Modal Contact Form with PHP and MySQL. [Download the Complete Source-Code with Database](https://github.com/roshanx911/Bootstrap-Contact-Form-with-PHP-and-MySQL/archive/master.zip)
-> 
