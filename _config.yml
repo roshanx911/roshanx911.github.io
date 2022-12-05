@@ -52,8 +52,8 @@ copyright: "Copyrights by Roshan Perera"
 
 # Build settings
 markdown: kramdown
-#remote_theme: jekyll/minima
-remote_theme: jekyll/minima@<insert-commit-hash_or_tag>
+remote_theme: jekyll/minima
+#remote_theme: jekyll/minima@<insert-commit-hash_or_tag>
 plugins:
   - jekyll-feed
   - jekyll-sitemap
