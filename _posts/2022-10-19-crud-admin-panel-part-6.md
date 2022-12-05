@@ -5,7 +5,7 @@ date: 2022-10-19 07:00:00 -0700
 categories: blog
 excerpt_separator: <!--more-->
 ---
-THe Following code examine on how to create an admin-panel & CRUD (Create, Read, Update, Delete) web application using Bootstrap, PHP & MySQL. Part-6 focus on Database-Implementation. <!--more-->
+Following code examine on how to create an admin-panel & CRUD (Create, Read, Update, Delete) web application using Bootstrap, PHP & MySQL. Part-6 focus on Database-Implementation. <!--more-->
 
 - Finally, have come to end of the “CRUD Admin-Panel” Web-Application. All the previous posts are not completed without the Implementation of Database. The sample Database “SQL” Query cast as below:
   
