@@ -60,6 +60,7 @@ plugins:
   - jekyll-seo-tag
   - jekyll-paginate
   - jemoji
+  - jekyll-remote-theme
 
 excerpt_separator: <!--more-->
 paginate: 4
