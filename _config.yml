@@ -40,13 +40,13 @@ minima:
     github: roshanx911
     linkedin: roshanx911
     stackoverflow: "14033303"
-  #social_links:
-   # - { platform: rss, user_url: "/feed.xml" }
-   # - { platform: facebook, user_url: "https://www.facebook.com/roshanx911/" }
-   # - { platform: github, user_url: "https://github.com/roshanx911/" }
-   # - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/14033303/" }    
-   # - { platform: linkedin, user_url: "https://www.linkedin.com/in/roshanx911/" }
-   # - { platform: twitter, user_url: "https://twitter.com/roshanx911/" }
+#  social_links:
+#    - { platform: rss, user_url: "/feed.xml" }
+#    - { platform: facebook, user_url: "https://www.facebook.com/roshanx911/" }
+#    - { platform: github, user_url: "https://github.com/roshanx911/" }
+#    - { platform: stackoverflow, user_url: "https://stackoverflow.com/users/14033303/" }    
+#    - { platform: linkedin, user_url: "https://www.linkedin.com/in/roshanx911/" }
+#    - { platform: twitter, user_url: "https://twitter.com/roshanx911/" }
 
 copyright: "Copyrights by Roshan Perera"
 
