@@ -12,9 +12,7 @@ permalink: /about/
             <p class="lead mb-0"><a href="#" class="text-white fw-bold">WelCome To Myblog...</a></p>
         </div>
         <div class="col-md-6">
-            <div class="h-100 p-5 text-bg-dark rounded-3">
-                <img src="https://avatars.githubusercontent.com/u/68834456?v=4" class="bd-placeholder-img rounded-circle" alt="Roshan" width="160" height="160" role="img">
-            </div>
+            <img src="https://avatars.githubusercontent.com/u/68834456?v=4" class="bd-placeholder-img rounded-circle" alt="Roshan" width="160" height="160" role="img">
         </div>
     </div>
 </main>
