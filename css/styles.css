@@ -58,7 +58,7 @@ ul, li {
 article.featured {
   grid-column: span 3;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 2fr;
   gap: 60px;
   align-items: center;
   border-bottom: 1px solid #bbc7c7;
