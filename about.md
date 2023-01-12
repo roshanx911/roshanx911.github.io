@@ -11,7 +11,7 @@ permalink: /about/
         </div>
         <div class="col-md-4">
             <div class="h-100 p-5 text-bg-light rounded-3">
-                <img class="mx-auto d-block" src="https://avatars.githubusercontent.com/u/68834456?v=4" class="bd-placeholder-img rounded-circle" alt="Roshan" width="140" height="140" role="img">
+                <img class="mx-auto d-block" src="https://avatars.githubusercontent.com/u/68834456?v=4" class="bd-placeholder-img rounded-circle" alt="Roshan" width="200" height="200" role="img">
             </div>
         </div>
     </div>
