@@ -40,3 +40,24 @@ hr {
     line-height: 1.15; 
     opacity: 0.7;
 }
+
+img {
+    max-width: 100%;
+  }
+  
+  /* 2-col Layout */
+  
+  #grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 2rem;
+    max-width: 700px;
+    margin: auto;
+    padding: 1.5rem;
+  }
+  
+  @media (min-width: 450px) {
+    #grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
