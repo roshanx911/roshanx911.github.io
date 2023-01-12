@@ -11,10 +11,8 @@ permalink: /about/
     </article>
     <article class="card">  
         <h4>Hi, I'm Roshan Perera. Focused and enthusiastic developer with a keen interest in web development. By comprehensive exposure to the underlying concepts and applying them vividly to various projects, my love for these domains came into being. I am a passionate individual who thrives to build and apply algorithms to solve real-world industry problems.</h4>
-    </article>
-</main>   
-</section>
-  
+    </article> 
+  </section>
 </main>
 
 <script src="/js/jquery.min.js"></script>
