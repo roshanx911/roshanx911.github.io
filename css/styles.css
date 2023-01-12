@@ -41,29 +41,13 @@ hr {
     opacity: 0.7;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;500;600;800&family=VT323&display=swap');
+/* This is the Start ABOUT.md */
 
-body {
-  margin: 20px;
-  font-family: "Poppins";
-  background: #d1dedd;
-}
 ul, li {
   padding: 0;
   list-style-type: none;
 }
-h1,h2,h3 {
-  color: #767f7e;
-}
-p {
-  color: #828b8a;
-}
 
-header {
-  max-width: 1200px;
-  margin: 40px auto;
-  border-bottom: 1px solid #bbc7c7;
-}
 .grid-container {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -87,6 +71,7 @@ article img, article.featured img {
 }
 article p, .article h3 {
   margin: 20px 10px;
+  color: #828b8a;
 }
 
 /* responsive */
@@ -106,3 +91,5 @@ article p, .article h3 {
     margin: 0 20px;
   }
 }
+
+/* This is the End ABOUT.md */
