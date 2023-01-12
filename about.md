@@ -6,8 +6,7 @@ permalink: /about/
 
 <main class="container">
     <div class="row align-items-md-stretch border rounded-3 text-bg-light">
-        <br />
-        <div class="col-md-4">
+        <div class="col-md-4"><br />
             <div class="rounded-3">
                 <img class="mx-auto d-block" src="https://avatars.githubusercontent.com/u/68834456?v=4" class="bd-placeholder-img rounded-circle" alt="Roshan" width="200" height="200" role="img">
             </div>
