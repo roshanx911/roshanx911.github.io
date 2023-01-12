@@ -8,7 +8,7 @@ permalink: /about/
     <div class="row align-items-md-stretch border rounded-3 text-bg-light">
         <div class="col-md-6">
             <h1>I am Roshan Perera...</h1>
-            <p>"Computer Enthusiast, Programmer & Web Developer from Sri Lanka"</p>
+            <h3>Computer Enthusiast, Programmer & Web Developer from Sri Lanka"</h3>
             <p class="lead mb-0"><a href="#" class="text-white fw-bold">WelCome To Myblog...</a></p>
         </div>
         <div class="col-md-6">
