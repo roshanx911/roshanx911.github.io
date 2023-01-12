@@ -7,8 +7,8 @@ permalink: /about/
 <main class="container">
   <div class="p-4 p-md-5 mb-4 rounded text-bg-dark">
     <div class="col-md-6 px-0">
-      <h1 class="display-4 fst-italic">I am Roshan Perera...</h1>
-      <p class="lead my-3">"Computer Enthusiast, Programmer & Web Developer from Sri Lanka"</p>
+      <h1">I am Roshan Perera...</h1>
+      <p>"Computer Enthusiast, Programmer & Web Developer from Sri Lanka"</p>
       <p class="lead mb-0"><a href="https://roshanx911.github.io/index.html" class="text-white fw-bold">WelCome To Myblog...</a></p>
     </div>
   </div>
