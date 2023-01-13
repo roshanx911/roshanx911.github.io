@@ -8,7 +8,7 @@
       "tags"     : "{{ post.tags | join: ', ' | prepend: " " }}",
       "url"      : "{{ post.url | relative_url }}",
       "date"     : "{{ post.date | date: "%B %-d, %Y" }}",
-      "excerpt"  : {{ post.content | strip_html | add: '...' | escape | jsonify }},
+      "excerpt"  : {{ post.content | strip_html | add: '...' | truncate: '150' | escape | jsonify }},
       "content"  : {{ post.content | strip_html | escape | jsonify }}
     } 
   {% unless forloop.last %},{% endunless %}
@@ -22,7 +22,7 @@
       "tags"     : "{{ page.tags | join: ', ' | prepend: " " }}",
       "url"      : "{{ page.url | relative_url }}",
       "date"     : "{{ page.date | date: "%B %-d, %Y" }}",
-      "excerpt"  : {{ page.content | strip_html | add: '...' | escape | jsonify }},
+      "excerpt"  : {{ page.content | strip_html | add: '...' | truncate: '150' |  escape | jsonify }},
       "content"  : {{ page.content | strip_html | escape | jsonify }}
     {% endif %}
     } {% unless forloop.last %},{% endunless %}
