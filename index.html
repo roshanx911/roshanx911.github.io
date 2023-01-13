@@ -12,7 +12,7 @@ layout: default
   <article class="post">
     <br />
     <h1><a href="{{ url_to_use }}">{{ post.title }}</a></h1>
-    <div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
+    <p class="date">{{ post.date | date: "%B %e, %Y" }}</p>
     <!-- Read-Time Counter-->
     {% include read-time.html content=post.content %}
     <!-- Read-Time Counter-->
@@ -93,21 +93,6 @@ layout: default
 </div>
 {% endif %}
 <!-- pagination Numbers-Row-->
-
-<!-- Read-Time Counter-->
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">{{ post.title }}</h2>
-    </a>
-    <p class="post-meta">
-        <span>Posted by {{ post.author }} on {{ post.date }}.</span>
-        {% include read-time.html content=post.content %}
-    </p>
-</div>
-<hr>
-{% endfor %}
-<!-- Read-Time Counter-->
 
 <script src="/js/jquery.min.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
