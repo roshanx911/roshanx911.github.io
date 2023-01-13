@@ -1,5 +1,6 @@
 ---
 ---
+{{ post.excerpt | }}
 [
   {% for post in site.posts %}
     {
@@ -8,7 +9,7 @@
       "tags"     : "{{ post.tags | join: ', ' | prepend: " " }}",
       "url"      : "{{ post.url | relative_url }}",
       "date"     : "{{ post.date | date: "%B %-d, %Y" }}",
-      "excerpt"  : {{ post.excerpt | strip_html | split: '<!--more-->' | add: '...' | truncate: '250' | escape | jsonify }},
+      "excerpt"  : {{ post.excerpt | strip_html | split: '<!--more-->' | add: '...' | truncate: '250' | escape | jsonify | remove: '<p>' | remove: '</p>' }},
       "content"  : {{ post.content | strip_html | escape | jsonify }}
     } 
   {% unless forloop.last %},{% endunless %}
@@ -22,7 +23,7 @@
       "tags"     : "{{ page.tags | join: ', ' | prepend: " " }}",
       "url"      : "{{ page.url | relative_url }}",
       "date"     : "{{ page.date | date: "%B %-d, %Y" }}",
-      "excerpt"  : {{ post.excerpt | strip_html | split: '<!--more-->' | add: '...' | truncate: '250' | escape | jsonify }},
+      "excerpt"  : {{ post.excerpt | strip_html | split: '<!--more-->' | add: '...' | truncate: '250' | escape | jsonify | remove: '<p>' | remove: '</p>' }},
       "content"  : {{ page.content | strip_html | escape | jsonify }}
     {% endif %}
     } {% unless forloop.last %},{% endunless %}
