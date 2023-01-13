@@ -13,6 +13,9 @@ layout: default
     <br />
     <h1><a href="{{ url_to_use }}">{{ post.title }}</a></h1>
     <div class="date">{{ post.date | date: "%B %e, %Y" }}</div>
+    <!-- Read-Time Counter-->
+    {% include read-time.html content=post.content %}
+    <!-- Read-Time Counter-->
     <div class="entry">
        {{ post.excerpt | add: '...'}}
     </div>
