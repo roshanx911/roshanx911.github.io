@@ -25,7 +25,7 @@ icon: ""
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
             json: '{{ "/search.liquid" | relative_url }}',
-            searchResultTemplate: '<article class="post"> <br /> <h1><a href="{{ url_to_use }}">{{ post.title }}</a></h1> <p class="date">{{ post.date | date: "%B %e, %Y" }}</p> <!-- Read-Time Counter--> {% include read-time.html content=post.content %} <!-- Read-Time Counter--> <div class="entry" {{ post.excerpt | add: '...'}} </div> <a href="{{ url_to_use }}" class="read-more">More…</a> <br /> <hr /> </article>',
+            searchResultTemplate: '<article class="search-title"> <br /> <h1><a href="{url}">{title}</a></h1> <p class="post.date">{date | date: "%B %e, %Y"}</p> {% include read-time.html content=post.content %} <div class="entry" {{ post.excerpt | add: '...'}} </div> <a href="{{ url_to_use }}" class="read-more">More…</a> <br /> <hr /> </article>',
             noResultsText: '{{ site.data.language.str_no_result_found | default: "No Result Found" }}',
             limit: 10,
             fuzzy: false,
@@ -33,6 +33,9 @@ icon: ""
         })
     </script>
 </section>
+
+            <div class="search-title"><a href="{url}">
+            <h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</div></div><p>{excerpt}</p></div><hr>
 
 <!-- Stylesheet pointing to search -->
 <style>
