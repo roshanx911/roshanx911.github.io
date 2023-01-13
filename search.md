@@ -34,8 +34,6 @@ icon: ""
     </script>
 </section>
 
-
-
 <!-- Stylesheet pointing to search -->
 <style>
 .search-bar {
