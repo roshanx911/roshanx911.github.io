@@ -25,7 +25,7 @@ icon: ""
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
             json: '{{ "/search.liquid" | relative_url }}',
-            searchResultTemplate: '<div class="search-title"><a href="{url}"><h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</div></div><p>{excerpt}</p></div><hr>',
+            searchResultTemplate: '<div class="posts">{% for post in paginator.posts %} {% capture url_to_use %}{{ post.url }}{% endcapture %} {% if post.redirect_url %} {% capture url_to_use %}{{ post.redirect_url }}{% endcapture %} {% endif %}<div class="search-title"> <br /> <h1><a href="{post.url}">{title}</a></h1> <p class="meta">{post.date | date: "%B %e, %Y"}</p> {% include read-time.html content=post.content %} <p class="entry"> { post.excerpt | add: '...'} </p> <a href="{post.url}" class="read-more">More…</a> <br /> <hr /> </div>{% endfor %}</div> <br />',
             noResultsText: '{{ site.data.language.str_no_result_found | default: "No Result Found" }}',
             limit: 10,
             fuzzy: false,
