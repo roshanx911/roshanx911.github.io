@@ -25,7 +25,7 @@ icon: ""
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
             json: '{{ "/search.liquid" | relative_url }}',
-            searchResultTemplate: '<div class="search-title"><a href="{url}"><h3>{title}</h3></a><p class="meta">{date}</p><p>{excerpt}</p><p><a href="{url}" class="read-more">More…</a></p></div><hr>',      
+            searchResultTemplate: '<div class="search-title"><a href="{url}"><h3>{title}</h3></a><p class="meta">{date}</p><p class="meta">{% include read-time.html content=post.content %}</p><p>{excerpt}</p><p><a href="{url}" class="read-more">More…</a></p></div><hr>',      
             noResultsText: '{{ site.data.language.str_no_result_found | default: "No Result Found" }}',
             limit: 10,
             fuzzy: false,
@@ -33,6 +33,8 @@ icon: ""
         })
     </script>
 </section>
+
+
 
 <!-- Stylesheet pointing to search -->
 <style>
