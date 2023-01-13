@@ -25,7 +25,7 @@ icon: ""
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
             json: '{{ "/search.liquid" | relative_url }}',
-            searchResultTemplate: '<div class="posts"> {% capture url %}{{ post.url }}{% endcapture %} {% if post.redirect_url %} {% capture url %}{{ post.redirect_url }}{% endcapture %} {% endif %} <article class="post"> <br /><div class="search-title"><a href="{url}"><h3>{title}</h3></a><p class="meta">{date}</p><p>{excerpt}</p><p><a href="{url}" class="read-more">More…</a></p></div><br /><hr /></article></div><br />',
+            searchResultTemplate: '<div class="search-title"><a href="{url}"><h3>{title}</h3></a><p class="meta">{date}</p><p>{excerpt}</p>{{ post.content | split:'<!--more-->' | first }}{% if post.content contains '<!--more-->' %} <p><a href="{url}" class="read-more">More…</a></p>{% endif %}</div><hr>',
             noResultsText: '{{ site.data.language.str_no_result_found | default: "No Result Found" }}',
             limit: 10,
             fuzzy: false,
