@@ -33,7 +33,7 @@ icon: ""
         })
     </script>
 </section>
-    {% include read-time.html content=post.content %}
+
 <!-- Stylesheet pointing to search -->
 <style>
 .search-bar {
