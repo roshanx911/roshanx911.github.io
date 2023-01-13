@@ -25,7 +25,7 @@ icon: ""
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
             json: '{{ "/search.liquid" | relative_url }}',
-            searchResultTemplate: '<div class="search-title"><a href="{url}"><h1> {title}</h1></a><p class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</p></div>{% include read-time.html content=post.content %}<p>{excerpt}</p></div><hr>',
+            searchResultTemplate: '<div class="search-title"><a href="{url}"><h1> {title}</h1></a><p class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</p></div><p>{excerpt}</p></div><hr>',
             noResultsText: '{{ site.data.language.str_no_result_found | default: "No Result Found" }}',
             limit: 10,
             fuzzy: false,
