@@ -6,7 +6,7 @@ permalink: /about/
 <main class="grid-container">
     <article class="featured">
         <div id="test" onmousedown='return false;' onselectstart='return false;'>
-            <img class="center-block" src="https://avatars.githubusercontent.com/u/68834456?v=4" alt="featured img" width="200" height="200" role="img" />
+            <img class="center" src="https://avatars.githubusercontent.com/u/68834456?v=4" alt="featured img" width="200" height="200" role="img" />
         </div>
         <div style="text-align: justify;">   
             <div id="test" onmousedown='return false;' onselectstart='return false;'>
