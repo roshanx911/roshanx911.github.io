@@ -34,9 +34,6 @@ icon: ""
     </script>
 </section>
 
-            <div class="search-title"><a href="{url}">
-            <h3> {title}</h3></a><div class="meta">{date} <div class="right"><i class="fas fa-tag"></i> {tags}</div></div><p>{excerpt}</p></div><hr>
-
 <!-- Stylesheet pointing to search -->
 <style>
 .search-bar {
