@@ -25,7 +25,7 @@ icon: ""
             searchInput: document.getElementById('search-input'),
             resultsContainer: document.getElementById('results-container'),
             json: '{{ "/search.liquid" | relative_url }}',
-            searchResultTemplate: '<article class="search-title"> <br /> <h1><a href="{url}">{title}</a></h1> <p class="post.date">{date | date: "%B %e, %Y"}</p> {% include read-time.html content=post.content %} <div class="entry" {{ post.excerpt | add: '...'}} </div> <a href="{{ url_to_use }}" class="read-more">More…</a> <br /> <hr /> </article>',
+            searchResultTemplate: '<div class="search-title"> <br /> <h1><a href="{post.url}">{title}</a></h1> <p class="meta">{post.date | date: "%B %e, %Y"}</p> {% include read-time.html content=post.content %} <p class="entry"> { post.excerpt | add: '...'} </p> <a href="{post.url}" class="read-more">More…</a> <br /> <hr /> </div>',
             noResultsText: '{{ site.data.language.str_no_result_found | default: "No Result Found" }}',
             limit: 10,
             fuzzy: false,
