@@ -34,8 +34,6 @@ icon: ""
     </script>
 </section>
 
-    <a href="{{ url_to_use }}" class="read-more">More…</a>
-
 <!-- Stylesheet pointing to search -->
 <style>
 .search-bar {
