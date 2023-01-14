@@ -75,7 +75,7 @@ permalink: /about/
         <li>SoapUI</li>
         <li>REST API</li>
         <li>GraphQL (Apollo)</li>
-        <li>SEO</li>
+        <li>SEO & SEM</li>
         <li>WCAG 2.0</li>
     </ul>
 </div>
