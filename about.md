@@ -3,16 +3,10 @@ layout: page
 title: About
 permalink: /about/
 ---
-
-
-
 <main class="grid-container">
     <article class="featured">
-        <div class="card-container">
         <div id="test" onmousedown='return false;' onselectstart='return false;'>
-            <img decoding="async" class="round" src="https://avatars.githubusercontent.com/u/68834456?v=4" alt="user" width="200" height="200" role="img" />
             <img class="center-block" src="https://avatars.githubusercontent.com/u/68834456?v=4" alt="featured img" width="200" height="200" role="img" />
-        </div>
         </div>
         <div style="text-align: justify;">   
             <div id="test" onmousedown='return false;' onselectstart='return false;'>
