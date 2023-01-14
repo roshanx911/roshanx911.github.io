@@ -91,19 +91,29 @@ article p, .article h3 {
 
 /* Skills of ABOUT.md */
 .e-a ul.tags {
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  zoom: 1;
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	zoom: 1;
+}
+
+.e-a ul.tags:after,
+.e-a ul.tags:before {
+	content: '';
+	display: table;
+}
+
+.e-a ul.tags:after {
+	clear: both;
 }
 
 .e-a ul.tags li {
-  float: left;
-  padding: 5px 18px;
-  background-color: #f1f5f7;
-  margin-right: 3px;
-  margin-bottom: 12px;
-  font-size: 14px;
+	float: left;
+	padding: 5px 18px;
+	background-color: #f1f5f7;
+	margin-right: 3px;
+	margin-bottom: 12px;
+	font-size: 14px;
 }
 /* Skills of ABOUT.md */
 
