@@ -120,3 +120,33 @@ article p, .article h3 {
     color: #565d5c;
 }
 /* This is the End of ABOUT.md */
+.card-container {
+  background-color: #6e7876;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px -10px rgb(0 0 0 / 75%);
+  color: #B3B8CD;
+  padding-top: 30px;
+  position: relative;
+  width: 350px;
+  max-width: 100%;
+  text-align: center;
+}
+
+.card-container .pro {
+	color: #565d5c;
+	background-color: #fff;
+	border-radius: 3px;
+	font-size: 20px;
+	font-weight: bold;
+	padding: 3px 7px;
+	position: absolute;
+	top: 30px;
+	left: 30px;
+}
+
+.card-container .round {
+	border: 1px solid #fff;
+	border-radius: 50%;
+	padding: 9px;
+	margin-bottom: 10px;
+}
