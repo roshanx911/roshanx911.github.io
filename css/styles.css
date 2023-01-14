@@ -94,7 +94,7 @@ article p, .article h3 {
 
 /* Skills */
 .skills {
-  background-color: #f1f5f7;
+  background-color: #e3e6ea;
   text-align: left;
   padding: 15px;
   margin-top: 10px;
@@ -109,7 +109,7 @@ article p, .article h3 {
 
 .skills ul li {
 	border: 1px solid #828b8a;
-	border-radius: 3px;
+	border-radius: px;
 	display: inline-block;
 	font-size: 12px;
 	margin: 0 7px 7px 0;
