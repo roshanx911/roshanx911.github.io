@@ -76,8 +76,8 @@ article p, .article h3 {
 
 /* Skills */
 .skills {
-  background-color: #e3e6ea;
-  text-align: left;
+  background-color: #f4f4f4;
+  text-align: justify;
   padding: 15px;
   margin-top: 10px;
   border-radius: 20px;
