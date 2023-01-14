@@ -74,24 +74,6 @@ article p, .article h3 {
   color: #828b8a;
 }
 
-/* Responsive */
-@media screen and (max-width: 980px) {
-  article {
-    grid-column: span 3;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    gap: 60px;
-    align-items: center;
-  }
-}
-
-@media screen and (max-width: 760px) {
-  article, article.featured {
-    display: block;
-    margin: 0 20px;
-  }
-}
-
 /* Skills */
 .skills {
   background-color: #e3e6ea;
