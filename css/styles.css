@@ -1,3 +1,4 @@
+/* pagination */
 .pagination {
     text-align: center;
  }
@@ -26,6 +27,7 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+/* Site Customization */
 .site-header { 
     border-top: 5px solid #ffffff;  
     border-bottom: 1px solid #e8e8e8; 
@@ -34,6 +36,7 @@ hr {
     position: relative; 
 }
 
+/* Post Customization */
 .post-title, .post-content h1 { 
     font-size: 2.625rem; 
     letter-spacing: -1px; 
@@ -71,7 +74,7 @@ article p, .article h3 {
   color: #828b8a;
 }
 
-/* responsive */
+/* Responsive */
 @media screen and (max-width: 980px) {
   article {
     grid-column: span 3;
@@ -89,32 +92,31 @@ article p, .article h3 {
   }
 }
 
-/* Skills of ABOUT.md */
-.e-a ul.tags {
-	padding: 0;
+/* Skills */
+.skills {
+  background-color: #565d5c;
+  text-align: left;
+  padding: 15px;
+  margin-top: 10px;
+  border-radius: 0 0px 20px 20px;
+}
+
+.skills ul {
+	list-style-type: none;
 	margin: 0;
-	list-style: none;
-	zoom: 1;
+	padding: 0;
 }
 
-.e-a ul.tags:after,
-.e-a ul.tags:before {
-	content: '';
-	display: table;
+.skills ul li {
+	border: 1px solid #828b8a;
+	border-radius: 2px;
+	display: inline-block;
+	font-size: 12px;
+	margin: 0 7px 7px 0;
+	padding: 7px;
 }
 
-.e-a ul.tags:after {
-	clear: both;
+.skills ul li:hover {
+    color: #fff;
 }
-
-.e-a ul.tags li {
-	float: left;
-	padding: 5px 18px;
-	background-color: #f1f5f7;
-	margin-right: 3px;
-	margin-bottom: 12px;
-	font-size: 14px;
-}
-/* Skills of ABOUT.md */
-
 /* This is the End of ABOUT.md */
