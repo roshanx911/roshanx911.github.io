@@ -54,6 +54,8 @@ permalink: /about/
             <li>Symfony</li>
             <li>CodeIgniter</li>
             <li>Yii</li>
+            <li>Drupal</li>  
+            <li>Joomla</li>            
             <li>WordPress</li>
             <li>WooCommerce</li>
             <li>Sylius</li>
