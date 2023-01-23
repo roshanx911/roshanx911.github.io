@@ -18,7 +18,7 @@ permalink: /about/
 
 <div class="skills">
     <div id="test" onmousedown='return false;' onselectstart='return false;'>
-        <p><b>Skills</b></p>nbsp;nbsp;<img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-3.svg" />
+        <p><b>Skills&nbsp;&nbsp;</b></p><img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-3.svg" />
         <ul>
             <li>HTML</li>
             <li>XML</li>
