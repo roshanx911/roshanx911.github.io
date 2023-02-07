@@ -96,7 +96,7 @@ icon: ""
 }
 
 
-.search-container::before 
+.search-bar::before 
 {
 	content: '';
 	z-index: 1;
@@ -109,7 +109,7 @@ icon: ""
 	background: linear-gradient(0deg,transparent,#45f3ff,#45f3ff);
 	animation: animate 6s linear infinite;
 }
-.search-container::after 
+.search-bar::after 
 {
 	content: '';
 	z-index: 1;
