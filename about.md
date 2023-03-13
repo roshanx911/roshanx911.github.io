@@ -84,5 +84,32 @@ permalink: /about/
     </div>
 </div>
 
+<div id="mask">
+    <div id="page">
+        <h1>flipclock</h1>
+
+        <div id="container"></div>
+
+        <div class="clearfix"></div>
+        <h2>USAGE</h2>
+        <ul id="usage">
+            <li class="selected">
+                clock
+                <code>$('#container').flipclock();</code>
+            </li>
+            <li>
+                fulldate
+                <code>$('#container').flipclock('date');</code>
+            </li>
+            <li>
+                countdown
+                <code>$('#container').flipclock('2013 01 17 12:00:00');</code>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<script src="/js/clcok.js"></script>
 <script src="/js/jquery.min.js"></script>
+<link rel="stylesheet" type="text/css" href="/css/clock.css"/>
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
