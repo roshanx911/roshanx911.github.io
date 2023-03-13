@@ -120,3 +120,12 @@ article p, .article h3 {
   }
 }
 /* End of ABOUT.md */
+
+/* Start of SEARCH.md */
+#search-container{
+  display:inline-block;margin-right:10px;
+}
+#search-svg{
+  display:inline-block;
+}
+/* End of SEARCH.md */

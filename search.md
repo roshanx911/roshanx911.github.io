@@ -3,15 +3,14 @@ layout: page
 title: Search
 permalink: /search/
 ---
-<div class="svg">
-<p><img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-1.svg" /></p>
-</div>
 <!-- Html Elements for Search -->
 <div id="search-container">
-<p><img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-1.svg" /></p>
 <input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
 <br />
 <ul id="results-container"></ul>
+</div>
+<div id="search-svg">
+<p><img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-1.svg" /></p>
 </div>
 
 <!-- Script pointing to Jekyll Instant Search  -->
