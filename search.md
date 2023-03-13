@@ -7,8 +7,9 @@ feature-img: ""
 icon: ""
 ---
 
+<p><img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-1.svg" /></p>
+
 <!-- Html Elements for Search -->
-<img src="https://github.com/roshanx911/roshanx911/blob/master/animation-1.svg" />
 <div id="search-container">
 <input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
 <br />
