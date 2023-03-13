@@ -84,6 +84,11 @@ permalink: /about/
     </div>
 </div>
 
+<div id="mask">
+    <div id="page">
+        <div id="container"></div>
+     </div>
+</div>
 <div id="page">
     <div id="container">
         <div class="flipclock">
