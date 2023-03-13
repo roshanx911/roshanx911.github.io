@@ -3,9 +3,9 @@ layout: page
 title: Search
 permalink: /search/
 ---
-
+<div class="svg">
 <p><img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-1.svg" /></p>
-
+</div>
 <!-- Html Elements for Search -->
 <div id="search-container">
 <input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
