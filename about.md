@@ -84,7 +84,6 @@ permalink: /about/
     </div>
 </div>
 
-<body>
 <div id="page">
     <div id="container">
         <div class="flipclock">
@@ -104,7 +103,6 @@ permalink: /about/
         $('#container').flipclock();
     })();
 </script>
-</body>
 
 <script src="/js/clcok.js"></script>
 <script src="/js/zepto.min.js"></script>
