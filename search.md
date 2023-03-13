@@ -2,9 +2,6 @@
 layout: page
 title: Search
 permalink: /search/
-subtitle: "What are you looking for?"
-feature-img: ""
-icon: ""
 ---
 
 <p><img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-1.svg" /></p>
