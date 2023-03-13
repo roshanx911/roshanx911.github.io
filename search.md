@@ -8,7 +8,8 @@ permalink: /search/
 </div>
 <!-- Html Elements for Search -->
 <div id="search-container">
-<input type="text" id="search-input" placeholder="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-1.svg" class="search-bar" autofocus="">
+<p><img src="https://raw.githubusercontent.com/roshanx911/roshanx911/master/animation-1.svg" /></p>
+<input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
 <br />
 <ul id="results-container"></ul>
 </div>
