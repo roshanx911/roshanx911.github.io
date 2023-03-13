@@ -9,6 +9,7 @@ icon: ""
 
 <!-- Html Elements for Search -->
 <div id="search-container">
+<img src="https://github.com/roshanx911/roshanx911/blob/master/animation-1.svg" />
 <input type="text" id="search-input" placeholder="Enter keywords..." class="search-bar" autofocus="">
 <br />
 <ul id="results-container"></ul>
