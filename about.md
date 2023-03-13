@@ -84,32 +84,32 @@ permalink: /about/
     </div>
 </div>
 
-<div id="mask">
-    <div id="page">
-        <h1>flipclock</h1>
-
-        <div id="container"></div>
-
-        <div class="clearfix"></div>
-        <h2>USAGE</h2>
-        <ul id="usage">
-            <li class="selected">
-                clock
-                <code>$('#container').flipclock();</code>
-            </li>
-            <li>
-                fulldate
-                <code>$('#container').flipclock('date');</code>
-            </li>
-            <li>
-                countdown
-                <code>$('#container').flipclock('2013 01 17 12:00:00');</code>
-            </li>
-        </ul>
+<body>
+<div id="page">
+    <div id="container">
+        <div class="flipclock">
+            <div class="section" data-section="year">year</div>
+            <div class="section" data-section="month">month</div>
+            <div class="section" data-section="day">day</div>
+            <div class="section" data-section="hour">hour</div>
+            <div class="section" data-section="minute">min</div>
+            <div class="section" data-section="second">sec</div>
+        </div>
     </div>
+    <div class="clearfix"></div>
 </div>
 
+<script>
+    (function () {
+        $('#container').flipclock();
+    })();
+</script>
+</body>
+
 <script src="/js/clcok.js"></script>
+<script src="/js/zepto.min.js"></script>
 <script src="/js/jquery.min.js"></script>
+<script src="/js/plugins/flipclock/flipclock.js"></script>
 <link rel="stylesheet" type="text/css" href="/css/clock.css"/>
 <link rel="stylesheet" type="text/css" href="/css/styles.css"/>
+<link rel="stylesheet" type="text/css" href="js/plugins/flipclock/flipclock.css"/>
