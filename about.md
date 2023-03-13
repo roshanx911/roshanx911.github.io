@@ -89,25 +89,6 @@ permalink: /about/
         <div id="container"></div>
      </div>
 </div>
-<div id="page">
-    <div id="container">
-        <div class="flipclock">
-            <div class="section" data-section="year">year</div>
-            <div class="section" data-section="month">month</div>
-            <div class="section" data-section="day">day</div>
-            <div class="section" data-section="hour">hour</div>
-            <div class="section" data-section="minute">min</div>
-            <div class="section" data-section="second">sec</div>
-        </div>
-    </div>
-    <div class="clearfix"></div>
-</div>
-
-<script>
-    (function () {
-        $('#container').flipclock();
-    })();
-</script>
 
 <script src="/js/clcok.js"></script>
 <script src="/js/zepto.min.js"></script>
