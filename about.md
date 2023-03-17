@@ -3,26 +3,6 @@ layout: page
 title: About
 permalink: /about/
 ---
-<div id="particles-js">
-  <div class="header">
-      <h1>
-        <span class="site-title">Anon Developer</span>
-        <span class="site-description">Software Developer</span>
-      </h1>
-      <div class="header-icons">
-        <a aria-label="Send email" href="#"><i class="icon fa fa-envelope"></i></a>
-        <a aria-label="My Twitter" target="_blank" href="#"><i class="icon fa fa-twitter" aria-hidden="true"></i></a>
-        <a aria-label="My Google Plus" target="_blank" href="#"><i class="icon fa fa-google-plus" aria-hidden="true"></i></a>
-        <a aria-label="My Github" target="_blank" href="#"><i class="icon fa fa-github-alt" aria-hidden="true"></i></a>
-      </div>
-      <div class="header-links">
-        <a class="link" href="#about" data-scroll="">About Me</a>
-        <a class="link" href="#projects" data-scroll="">Projects</a>
-      </div>
-  </div>
-  <a class="down" href="#about" data-scroll=""><i class="icon fa fa-chevron-down" aria-hidden="true"></i></a>
-<canvas class="particles-js-canvas-el" style="width: 100%; height: 100%;" width="712" height="671"></canvas></div>
-
 <main class="grid-container">
     <article class="featured">
         <div id="test" onmousedown='return false;' onselectstart='return false;'>
