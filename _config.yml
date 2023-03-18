@@ -40,7 +40,7 @@ minima:
     facebook: roshanx911
     github: roshanx911
     linkedin: roshanx911
-    stackoverflow: "14033303"
+#    stackoverflow: "14033303"
 #  social_links:
 #    - { platform: rss, user_url: "/feed.xml" }
 #    - { platform: facebook, user_url: "https://www.facebook.com/roshanx911/" }
