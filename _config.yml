@@ -32,6 +32,7 @@ header_pages:
   - home.md
   - about.md
   - search.md
+  - port.md
 minima:
   skin: classic
   social_links:
