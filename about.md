@@ -28,7 +28,6 @@ permalink: /about/
             <li>TypeScript</li>
             <li>JSX</li>
             <li>AJAX</li>
-            <li>JSON</li>
             <li>PHP</li>
             <li>Go</li>
             <li>Python</li>
