@@ -26,7 +26,7 @@ description: >- # this means to ignore newlines until "baseurl:"
   I am Roshan Perera Computer Enthusiast, Programmer & Web Developer from Sri Lanka.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://roshanx911.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-google_analytics: UA-175351528-1
+google_analytics: G-DXWVR83877
 show_excerpts: true
 header_pages:
   - home.md
