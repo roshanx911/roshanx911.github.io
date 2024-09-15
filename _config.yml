@@ -18,12 +18,12 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Roshan Perera
+title: Roshan Weerakkodi
 author:
-  name: Roshan Perera
+  name: Roshan Weerakkodi
   email: roshanx911@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Roshan Perera Computer Enthusiast, Programmer & Web Developer from Sri Lanka.
+  I am Roshan Weerakkodi Computer Enthusiast, Programmer & Web Developer from Sri Lanka.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://roshanx911.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-DXWVR83877
@@ -49,7 +49,7 @@ minima:
 #    - { platform: linkedin, user_url: "https://www.linkedin.com/in/roshanx911/" }
 #    - { platform: twitter, user_url: "https://twitter.com/roshanx911/" }
 
-copyright: "Copyrights by Roshan Perera"
+copyright: "Copyrights by Roshan Weerakkodi"
 
 # Build settings
 markdown: kramdown
