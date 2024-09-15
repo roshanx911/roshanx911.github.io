@@ -23,7 +23,7 @@ author:
   name: Roshan Weerakkodi
   email: roshanx911@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I am Roshan Weerakkodi Computer Enthusiast, Programmer & Web Developer from Sri Lanka.
+  I am Roshan Weerakkodi Computer Enthusiast, Programmer & Full Stack Developer from Sri Lanka.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://roshanx911.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 google_analytics: G-DXWVR83877
